@@ -1,6 +1,22 @@
 Windows Registry Editor Version 5.00
 
-; Machine policy
+[HKEY_LOCAL_MACHINE\software\Adobe\Adobe Acrobat\2015\Installer]
+"DisableMaintenance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Adobe\Adobe Acrobat\DC\Installer]
+"DisableMaintenance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Classes\batfile\shell\runasuser]
+"SuppressionPolicy"=dword:00001000
+
+[HKEY_LOCAL_MACHINE\software\Classes\cmdfile\shell\runasuser]
+"SuppressionPolicy"=dword:00001000
+
+[HKEY_LOCAL_MACHINE\software\Classes\exefile\shell\runasuser]
+"SuppressionPolicy"=dword:00001000
+
+[HKEY_LOCAL_MACHINE\software\Classes\mscfile\shell\runasuser]
+"SuppressionPolicy"=dword:00001000
 
 [HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\main\featurecontrol\feature_addon_management]
 "excel.exe"=dword:00000001
@@ -130,6 +146,22 @@ Windows Registry Editor Version 5.00
 "winproj.exe"=dword:00000001
 "winword.exe"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\main\featurecontrol\feature_safe_bindtoobject]
+"excel.exe"=dword:00000001
+"exprwd.exe"=dword:00000000
+"groove.exe"=dword:00000001
+"msaccess.exe"=dword:00000001
+"mse7.exe"=dword:00000000
+"mspub.exe"=dword:00000001
+"onenote.exe"=dword:00000001
+"outlook.exe"=dword:00000001
+"powerpnt.exe"=dword:00000001
+"pptview.exe"=dword:00000001
+"spdesign.exe"=dword:00000000
+"visio.exe"=dword:00000001
+"winproj.exe"=dword:00000001
+"winword.exe"=dword:00000001
+
 [HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\main\featurecontrol\feature_securityband]
 "excel.exe"=dword:00000001
 "exprwd.exe"=dword:00000001
@@ -174,6 +206,22 @@ Windows Registry Editor Version 5.00
 "powerpnt.exe"=dword:00000001
 "pptview.exe"=dword:00000001
 "spdesign.exe"=dword:00000001
+"visio.exe"=dword:00000001
+"winproj.exe"=dword:00000001
+"winword.exe"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\microsoft\internet explorer\main\featurecontrol\feature_weboc_popupmanagement]
+"excel.exe"=dword:00000001
+"exprwd.exe"=dword:00000000
+"groove.exe"=dword:00000001
+"msaccess.exe"=dword:00000001
+"mse7.exe"=dword:00000000
+"mspub.exe"=dword:00000001
+"onenote.exe"=dword:00000001
+"outlook.exe"=dword:00000001
+"powerpnt.exe"=dword:00000001
+"pptview.exe"=dword:00000001
+"spdesign.exe"=dword:00000000
 "visio.exe"=dword:00000001
 "winproj.exe"=dword:00000001
 "winword.exe"=dword:00000001
@@ -232,6 +280,10 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\microsoft\WcmSvc\wifinetworkmanager\config]
 "AutoConnectAllowedOEM"=dword:00000000
 
+[HKEY_LOCAL_MACHINE\software\microsoft\Windows NT\CurrentVersion\Winlogon]
+"AutoAdminLogon"="0"
+"ScreenSaverGracePeriod"="5"
+
 [HKEY_LOCAL_MACHINE\software\microsoft\Windows\CurrentVersion\Policies\CredUI]
 "EnableSecureCredentialPrompting"=dword:00000001
 "EnumerateAdministrators"=dword:00000000
@@ -239,20 +291,164 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoAutorun"=dword:00000001
 "NoDriveTypeAutoRun"=dword:000000ff
+"NoInternetOpenWith"=dword:00000001
+"NoOnlinePrintsWizard"=dword:00000001
+"NoStartBanner"=dword:00000001
 "NoWebServices"=dword:00000001
+"PreXPSP2ShellProtocolBehavior"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\microsoft\Windows\CurrentVersion\Policies\Ext]
 "RunThisTimeEnabled"=dword:00000000
 "VersionCheckEnabled"=dword:00000001
 
-[HKEY_LOCAL_MACHINE\software\microsoft\Windows\CurrentVersion\Policies\System]
+[HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\servicing]
+"repaircontentserversource"=-
+"LocalSourcePath"=hex(2):00,00
+"UseWindowsUpdate"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\software\microsoft\windows\currentversion\policies\system]
+"disablebkgndgrouppolicy"=-
 "Allow-LogonScript-NetbiosDisabled"=dword:00000000
 "DisableAutomaticRestartSignOn"=dword:00000001
 "LocalAccountTokenFilterPolicy"=dword:00000000
+"LogonType"=dword:00000000
 "MSAOptional"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\microsoft\Windows\CurrentVersion\Policies\System\Audit]
+"ProcessCreationIncludeCmdLine_Enabled"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters]
 "AllowEncryptionOracle"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown]
+"bDisablePDFHandlerSwitching"=dword:00000001
+"bDisableTrustedFolders"=dword:00000001
+"bDisableTrustedSites"=dword:00000001
+"bEnableFlash"=dword:00000000
+"bEnhancedSecurityInBrowser"=dword:00000001
+"bEnhancedSecurityStandalone"=dword:00000001
+"bProtectedMode"=dword:00000001
+"iFileAttachmentPerms"=dword:00000001
+"iProtectedView"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cCloud]
+"bAdobeSendPluginToggle"=dword:00000001
+"bDisableADCFileStore"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cDefaultLaunchURLPerms]
+"iUnknownURLPerms"=dword:00000003
+"iURLPerms"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cServices]
+"bTogglePrefsSync"=dword:00000001
+"bToggleWebConnectors"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cSharePoint]
+"bDisableSharePointFeatures"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cWebmailProfiles]
+"bDisableWebmail"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cWelcomeScreen]
+"bShowWelcomeScreen"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown]
+"bDisablePDFHandlerSwitching"=dword:00000001
+"bDisableTrustedFolders"=dword:00000001
+"bDisableTrustedSites"=dword:00000001
+"bEnableFlash"=dword:00000000
+"bEnhancedSecurityInBrowser"=dword:00000001
+"bEnhancedSecurityStandalone"=dword:00000001
+"bProtectedMode"=dword:00000001
+"iFileAttachmentPerms"=dword:00000001
+"iProtectedView"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cCloud]
+"bAdobeSendPluginToggle"=dword:00000001
+"bDisableADCFileStore"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cDefaultLaunchURLPerms]
+"iUnknownURLPerms"=dword:00000003
+"iURLPerms"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cServices]
+"bTogglePrefsSync"=dword:00000001
+"bToggleWebConnectors"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cSharePoint]
+"bDisableSharePointFeatures"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cWebmailProfiles]
+"bDisableWebmail"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cWelcomeScreen]
+"bShowWelcomeScreen"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Google\Chrome]
+"AllowDeletingBrowserHistory"=dword:00000000
+"AllowOutdatedPlugins"=dword:00000000
+"AutofillAddressEnabled"=dword:00000000
+"AutofillCreditCardEnabled"=dword:00000000
+"AutoplayAllowed"=dword:00000000
+"BackgroundModeEnabled"=dword:00000000
+"BrowserGuestModeEnabled"=dword:00000000
+"ChromeCleanupEnabled"=dword:00000000
+"ChromeCleanupReportingEnabled"=dword:00000000
+"CloudPrintProxyEnabled"=dword:00000000
+"DefaultGeolocationSetting"=dword:00000002
+"DefaultPluginsSetting"=dword:00000003
+"DefaultPopupsSetting"=dword:00000002
+"DefaultSearchProviderEnabled"=dword:00000001
+"DefaultSearchProviderName"="Google Encrypted"
+"DefaultSearchProviderSearchURL"="https://www.google.com/search?q={searchTerms}"
+"DefaultWebBluetoothGuardSetting"=dword:00000002
+"DefaultWebUsbGuardSetting"=dword:00000002
+"DeveloperToolsAvailability"=dword:00000002
+"DownloadRestrictions"=dword:00000001
+"EnableMediaRouter"=dword:00000000
+"EnableOnlineRevocationChecks"=dword:00000001
+"ImportAutofillFormData"=dword:00000000
+"ImportSavedPasswords"=dword:00000000
+"IncognitoModeAvailability"=dword:00000001
+"MetricsReportingEnabled"=dword:00000000
+"NetworkPredictionOptions"=dword:00000002
+"PasswordManagerEnabled"=dword:00000000
+"PromptForDownloadLocation"=dword:00000001
+"RemoteAccessHostFirewallTraversal"=dword:00000000
+"SafeBrowsingExtendedReportingEnabled"=dword:00000000
+"SafeBrowsingProtectionLevel"=dword:00000001
+"SavingBrowserHistoryDisabled"=dword:00000000
+"SearchSuggestEnabled"=dword:00000000
+"SSLVersionMin"="tls1.1"
+"SyncDisabled"=dword:00000001
+"UrlKeyedAnonymizedDataCollectionEnabled"=dword:00000000
+"WebRtcEventLogCollectionAllowed"=dword:00000000
+
+[-HKEY_LOCAL_MACHINE\software\policies\google\chrome\autoplayallowlist]
+
+[HKEY_LOCAL_MACHINE\software\Policies\Google\Chrome\AutoplayAllowlist]
+"1"="[*.]mil"
+"2"="[*.]gov"
+
+[-HKEY_LOCAL_MACHINE\software\policies\google\chrome\cookiessessiononlyforurls]
+
+[-HKEY_LOCAL_MACHINE\software\policies\google\chrome\extensioninstallallowlist]
+
+[HKEY_LOCAL_MACHINE\software\Policies\Google\Chrome\ExtensionInstallAllowlist]
+"1"="oiigbmnaadbkfbmpbfijlflahbdbdgdf"
+
+[-HKEY_LOCAL_MACHINE\software\policies\google\chrome\extensioninstallblocklist]
+
+[HKEY_LOCAL_MACHINE\software\Policies\Google\Chrome\ExtensionInstallBlocklist]
+"1"="*"
+
+[-HKEY_LOCAL_MACHINE\software\policies\google\chrome\urlblocklist]
+
+[HKEY_LOCAL_MACHINE\software\Policies\Google\Chrome\URLBlocklist]
+"1"="javascript://*"
+
+[HKEY_LOCAL_MACHINE\software\Policies\Google\Update]
+"AutoUpdateCheckPeriodMinutes"=dword:00002760
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft Services\AdmPwd]
 "AdmPwdEnabled"=dword:00000001
@@ -269,18 +465,144 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Conferencing]
 "NoRDS"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Control Panel\International]
+"BlockUserInputMethodsForSignIn"=dword:00000001
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Cryptography\AutoEnrollment]
 "AEPolicy"=dword:00000007
 "OfflineExpirationPercent"=dword:0000000a
 "OfflineExpirationStoreNames"="MY"
 
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Cryptography\Configuration\SSL\00010002]
+"EccCurves"=hex(7):4e,00,69,00,73,00,74,00,50,00,33,00,38,00,34,00,00,00,4e,00,\
+  69,00,73,00,74,00,50,00,32,00,35,00,36,00,00,00,00,00
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Edge]
+"AllowDeletingBrowserHistory"=dword:00000000
+"AlternateErrorPagesEnabled"=dword:00000000
+"AuthSchemes"="ntlm,negotiate"
+"AutofillAddressEnabled"=dword:00000000
 "AutofillCreditCardEnabled"=dword:00000000
+"AutoplayAllowed"=dword:00000000
+"BackgroundModeEnabled"=dword:00000000
+"BrowserGuestModeEnabled"=dword:00000000
+"BuiltInDnsClientEnabled"=dword:00000000
+"ConfigureShare"=dword:00000001
+"DefaultGeolocationSetting"=dword:00000002
+"DefaultPopupsSetting"=dword:00000002
+"DefaultWebBluetoothGuardSetting"=dword:00000002
+"DefaultWebUsbGuardSetting"=dword:00000002
+"DeveloperToolsAvailability"=dword:00000002
+"DownloadRestrictions"=dword:00000001
+"EdgeCollectionsEnabled"=dword:00000000
+"EnableMediaRouter"=dword:00000000
+"ImportAutofillFormData"=dword:00000000
+"ImportBrowserSettings"=dword:00000000
+"ImportCookies"=dword:00000000
+"ImportExtensions"=dword:00000000
+"ImportHistory"=dword:00000000
+"ImportHomepage"=dword:00000000
+"ImportOpenTabs"=dword:00000000
+"ImportPaymentInfo"=dword:00000000
+"ImportSavedPasswords"=dword:00000000
+"ImportSearchEngine"=dword:00000000
+"ImportShortcuts"=dword:00000000
+"InPrivateModeAvailability"=dword:00000001
+"IsolateOrigins"=""
+"ManagedSearchEngines"="[{\"allow_search_engine_discovery\": false},{\"is_default\": true,\"name\": \"Microsoft Bing\",\"keyword\": \"bing\",\"search_url\": \"https://www.bing.com/search?q={searchTerms}\"},{\"name\": \"Google\",\"keyword\": \"google\",\"search_url\": \"https://www.google.com/search?q={searchTerms}\"}]"
+"NativeMessagingUserLevelHosts"=dword:00000000
+"NetworkPredictionOptions"=dword:00000002
+"PasswordManagerEnabled"=dword:00000000
+"PaymentMethodQueryEnabled"=dword:00000000
+"PersonalizationReportingEnabled"=dword:00000000
+"PreventSmartScreenPromptOverride"=dword:00000001
+"PreventSmartScreenPromptOverrideForFiles"=dword:00000001
+"PromptForDownloadLocation"=dword:00000001
+"ProxySettings"="ADD YOUR PROXY CONFIGURATIONS HERE"
+"RelaunchNotification"=dword:00000002
+"RequireOnlineRevocationChecksForLocalAnchors"=dword:00000001
+"SearchSuggestEnabled"=dword:00000000
+"SitePerProcess"=dword:00000001
+"SmartScreenEnabled"=dword:00000001
+"SmartScreenPuaEnabled"=dword:00000001
+"SSLErrorOverrideAllowed"=dword:00000000
+"SSLVersionMin"="tls1.2"
+"SyncDisabled"=dword:00000001
+"TrackingPrevention"=dword:00000002
 "UserFeedbackAllowed"=dword:00000000
+
+[-HKEY_LOCAL_MACHINE\software\policies\microsoft\edge\extensioninstallblocklist]
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Edge\ExtensionInstallBlocklist]
+"1"="*"
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\EMET\Defaults]
+"*\\7-Zip\\7z.exe"="-EAF"
+"*\\7-Zip\\7zFM.exe"="-EAF"
+"*\\7-Zip\\7zG.exe"="-EAF"
+"*\\Adobe\\*\\Reader\\AcroRd32.exe"="+EAF+ eaf_modules:AcroRd32.dll;Acrofx32.dll;AcroForm.api"
+"*\\Adobe\\Acrobat*\\Acrobat\\Acrobat.exe"="+EAF+ eaf_modules:AcroRd32.dll;Acrofx32.dll;AcroForm.api"
+"*\\Adobe\\Adobe Photoshop CS*\\Photoshop.exe"=""
+"*\\Foxit Reader\\Foxit Reader.exe"=""
+"*\\Google\\Chrome\\Application\\chrome.exe"="+EAF+ eaf_modules:chrome_child.dll"
+"*\\Google\\Google Talk\\googletalk.exe"="-DEP"
+"*\\Internet Explorer\\iexplore.exe"="+EAF+ eaf_modules:mshtml.dll;flash*.ocx;jscript*.dll;vbscript.dll;vgx.dll +ASR asr_modules:npjpi*.dll;jp2iexp.dll;vgx.dll;msxml4*.dll;wshom.ocx;scrrun.dll;vbscript.dll asr_zones:1;2"
+"*\\iTunes\\iTunes.exe"=""
+"*\\Java\\jre*\\bin\\java.exe"="-HeapSpray"
+"*\\Java\\jre*\\bin\\javaw.exe"="-HeapSpray"
+"*\\Java\\jre*\\bin\\javaws.exe"="-HeapSpray"
+"*\\Microsoft Lync\\communicator.exe"=""
+"*\\mIRC\\mirc.exe"=""
+"*\\Mozilla Firefox\\firefox.exe"="+EAF+ eaf_modules:mozjs.dll;xul.dll"
+"*\\Mozilla Firefox\\plugin-container.exe"=""
+"*\\Mozilla Thunderbird\\plugin-container.exe"=""
+"*\\Mozilla Thunderbird\\thunderbird.exe"=""
+"*\\OFFICE1*\\EXCEL.EXE"="+ASR asr_modules:flash*.ocx"
+"*\\OFFICE1*\\INFOPATH.EXE"=""
+"*\\OFFICE1*\\LYNC.EXE"=""
+"*\\OFFICE1*\\MSACCESS.EXE"=""
+"*\\OFFICE1*\\MSPUB.EXE"=""
+"*\\OFFICE1*\\OIS.EXE"=""
+"*\\OFFICE1*\\OUTLOOK.EXE"=""
+"*\\OFFICE1*\\POWERPNT.EXE"="+ASR asr_modules:flash*.ocx"
+"*\\OFFICE1*\\PPTVIEW.EXE"=""
+"*\\OFFICE1*\\VISIO.EXE"=""
+"*\\OFFICE1*\\VPREVIEW.EXE"=""
+"*\\OFFICE1*\\WINWORD.EXE"="+ASR asr_modules:flash*.ocx"
+"*\\Opera\\*\\opera.exe"=""
+"*\\Opera\\opera.exe"=""
+"*\\Pidgin\\pidgin.exe"=""
+"*\\QuickTime\\QuickTimePlayer.exe"=""
+"*\\Real\\RealPlayer\\realconverter.exe"=""
+"*\\Real\\RealPlayer\\realplay.exe"=""
+"*\\Safari\\Safari.exe"=""
+"*\\SkyDrive\\SkyDrive.exe"=""
+"*\\Skype\\Phone\\Skype.exe"="-EAF"
+"*\\VideoLAN\\VLC\\vlc.exe"=""
+"*\\Winamp\\winamp.exe"=""
+"*\\Windows Live\\Mail\\wlmail.exe"=""
+"*\\Windows Live\\Photo Gallery\\WLXPhotoGallery.exe"=""
+"*\\Windows Live\\Writer\\WindowsLiveWriter.exe"=""
+"*\\Windows Media Player\\wmplayer.exe"="-EAF -MandatoryASLR"
+"*\\Windows NT\\Accessories\\wordpad.exe"=""
+"*\\WinRAR\\rar.exe"=""
+"*\\WinRAR\\unrar.exe"=""
+"*\\WinRAR\\winrar.exe"=""
+"*\\WinZip\\winzip32.exe"=""
+"*\\WinZip\\winzip64.exe"=""
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\EMET\SysSettings]
+"ASLR"=dword:00000003
+"DEP"=dword:00000002
+"SEHOP"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\EventViewer]
+"MicrosoftEventVwrDisableLinks"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\FVE]
 "DisableExternalDMAUnderLock"=dword:00000001
 "EnableBDEWithNoTPM"=dword:00000001
+"MinimumPIN"=dword:00000006
 "UseAdvancedStartup"=dword:00000001
 "UseEnhancedPin"=dword:00000001
 "UseTPM"=dword:00000002
@@ -291,12 +613,19 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\InputPersonalization]
 "AllowInputPersonalization"=dword:00000000
 
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Internet Explorer\Control Panel]
+"History"=dword:00000001
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Internet Explorer\Download]
 "CheckExeSignatures"="yes"
 "RunInvalidSignatures"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Internet Explorer\Feeds]
+"AllowBasicAuthInClear"=dword:00000000
 "DisableEnclosureDownload"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Internet Explorer\IEDevTools]
+"Disabled"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Internet Explorer\Main]
 "DisableEPMCompat"=dword:00000001
@@ -359,6 +688,11 @@ Windows Registry Editor Version 5.00
 "PreventOverride"=dword:00000001
 "PreventOverrideAppRepUnknown"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Internet Explorer\Privacy]
+"CleanHistory"=dword:00000000
+"ClearBrowsingHistoryOnExit"=dword:00000000
+"EnableInPrivateBrowsing"=dword:00000000
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Internet Explorer\Restrictions]
 "NoCrashDetection"=dword:00000001
 
@@ -386,9 +720,34 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\MRT]
 "DontOfferThroughWUAU"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\office\15.0\common\officeupdate]
+"enableautomaticupdates"=dword:00000001
+"hideenabledisableupdates"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\office\15.0\infopath\security]
+"aptca_allowlist"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\office\15.0\lync]
+"disablehttpconnect"=dword:00000001
+"enablesiphighsecuritymode"=dword:00000001
+"savepassword"=dword:00000000
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\office\16.0\lync]
 "disablehttpconnect"=dword:00000001
 "enablesiphighsecuritymode"=dword:00000001
+"savepassword"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\OneDrive\AllowTenantList]
+"1111-2222-3333-4444"="1111-2222-3333-4444"
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\PassportForWork]
+"RequireSecurityDevice"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\PassportForWork\ExcludeSecurityDevices]
+"TPM12"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\PassportForWork\PINComplexity]
+"MinimumPINLength"=dword:00000006
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Peernet]
 "Disabled"=dword:00000000
@@ -403,6 +762,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Speech]
 "AllowSpeechModelUpdate"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\SQMClient\Windows]
+"CEIPEnable"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\SystemCertificates\Disallowed\Certificates\109F1CAED645BB78B3EA2B94C0697C740733031C]
 "Blob"=hex:0f,00,00,00,01,00,00,00,10,00,00,00,05,85,87,0a,20,bd,9e,68,5a,85,14,\
@@ -692,8 +1054,15 @@ Windows Registry Editor Version 5.00
   f5,c3,95,db,62,69,5b,c9,dc,c1,b3,fa,f0,c4,6f,6f,64,9a,bd,e7,1b,25,68,72,83,67,\
   bd,56,b0,8d,01,bd,2a,f7,cc,4b,bd,87,a5,ba,87,20,4c,42,11,41,ad,10,17,3b,8c
 
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\TabletTip\1.7]
+"PasswordSecurity"=dword:00000004
+"PasswordSecurityState"=dword:00000001
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\TPM]
 "OSManagedAuthLevel"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender ExploitGuard\Exploit Protection]
+"ExploitProtectionSettings"="\\\\YOURSHAREHERE\\EP.XML"
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender Security Center\App and Browser protection]
 "DisallowExploitProtectionOverride"=dword:00000001
@@ -701,6 +1070,9 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender]
 "DisableAntiSpyware"=dword:00000000
 "PUAProtection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender\Exclusions]
+"DisableAutoExclusions"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender\MpEngine]
 "MpBafsExtendedTimeout"=dword:00000032
@@ -713,12 +1085,28 @@ Windows Registry Editor Version 5.00
 "DisableRealtimeMonitoring"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender\Scan]
+"DisableEmailScanning"=dword:00000000
 "DisableRemovableDriveScanning"=dword:00000000
+"ScheduleDay"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender\Signature Updates]
+"ASSignatureDue"=dword:00000007
+"AVSignatureDue"=dword:00000007
+"ScheduleDay"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender\Spynet]
 "DisableBlockAtFirstSeen"=dword:00000000
-"SpyNetReporting"=dword:00000002
+"SpynetReporting"=dword:00000002
 "SubmitSamplesConsent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender\Threats]
+"Threats_ThreatSeverityDefaultAction"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender\Threats\ThreatSeverityDefaultAction]
+"1"="2"
+"2"="2"
+"4"="2"
+"5"="2"
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR]
 "ExploitGuard_ASR_Rules"=dword:00000001
@@ -749,8 +1137,18 @@ Windows Registry Editor Version 5.00
 "NameServer"="1.1.1.1 1.0.0.1"
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows NT\Printers]
+"DisableHTTPPrinting"=dword:00000001
 "DisableWebPnPDownload"=dword:00000001
+"DoNotInstallCompatibleDriverFromWindowsUpdate"=dword:00000001
 "RegisterSpoolerRemoteRpcEndPoint"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows NT\Printers\PointAndPrint]
+"InForest"=dword:00000001
+"NoWarningNoElevationOnInstall"=dword:00000001
+"Restricted"=dword:00000001
+"ServerList"=""
+"TrustedServers"=dword:00000000
+"UpdatePromptSettings"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows NT\Rpc]
 "EnableAuthEpResolution"=dword:00000001
@@ -764,17 +1162,28 @@ Windows Registry Editor Version 5.00
 "maxticketexpiryunits"=-
 "AllowSignedFiles"=dword:00000000
 "AllowUnsignedFiles"=dword:00000000
+"DeleteTempDirsOnExit"=dword:00000001
 "DisablePasswordSaving"=dword:00000001
 "fAllowToGetHelp"=dword:00000000
 "fAllowUnsolicited"=dword:00000000
 "fDenyTSConnections"=dword:00000001
+"fDisableCcm"=dword:00000001
 "fDisableCdm"=dword:00000001
 "fDisableCpm"=dword:00000001
+"fDisableLPT"=dword:00000001
+"fDisablePNPRedir"=dword:00000001
+"fEnableSmartCard"=dword:00000001
 "fEncryptRPCTraffic"=dword:00000001
 "fPromptForPassword"=dword:00000001
+"LoggingEnabled"=dword:00000001
 "MinEncryptionLevel"=dword:00000003
+"PerSessionTempDir"=dword:00000001
 "PromptForCredsOnClient"=dword:00000001
+"RedirectOnlyDefaultClientPrinter"=dword:00000001
+"ShareControlMessage"="You are about to allow other personnel to remotely control your system. You must monitor the activity until the session is closed."
+"UseCustomMessages"=dword:00000001
 "UseUniversalPrinterDriverFirst"=dword:00000004
+"ViewMessage"="You are about to allow other personnel to remotely connect to your system. Sensitive data should not be displayed during this session."
 
 [HKEY_LOCAL_MACHINE\software\policies\microsoft\windows nt\terminal services\client]
 "fusbredirectionenablemode"=-
@@ -788,16 +1197,22 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows NT\terminal services\client\UsbSelectDeviceByInterfaces]
 "1000"="{6bdd1fc6-810f-11d0-bec7-08002be2092f}"
 
+[-HKEY_LOCAL_MACHINE\software\policies\microsoft\windows nt\terminal services\raunsolicit]
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows NT\Windows File Protection]
 "KnownDllList"="nlhtml.dll"
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\AppCompat]
 "AITEnable"=dword:00000000
 "DisableInventory"=dword:00000001
+"DisablePcaUI"=dword:00000000
 "DisableUAR"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\AppPrivacy]
 "LetAppsActivateWithVoiceAboveLock"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\Appx]
+"AllowAllTrustedApps"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\AxInstaller]
 "OnlyUseAXISForActiveXInstall"=dword:00000001
@@ -839,6 +1254,9 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\4]
 "1C00"=dword:00000000
 "2301"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Url History]
+"DaysToKeep"=dword:00000028
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap]
 "UNCAsIntranet"=dword:00000000
@@ -934,9 +1352,13 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\datacollection]
 "AllowTelemetry"=dword:00000000
+"LimitEnhancedDiagnosticDataWindowsAnalytics"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\DeliveryOptimization]
 "DODownloadMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\Device Metadata]
+"PreventDeviceMetadataFromNetwork"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\DeviceGuard]
 "ConfigureSystemGuardLaunch"=dword:00000001
@@ -956,10 +1378,20 @@ Windows Registry Editor Version 5.00
 "1"="{d48179be-ec20-11d1-b6b8-00c04fa372a7}"
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\DeviceInstall\Settings]
+"AllowRemoteRPC"=dword:00000000
 "AllSigningEqual"=dword:00000001
+"DisableSendGenericDriverNotFoundToWER"=dword:00000001
+"DisableSendRequestAdditionalSoftwareToWER"=dword:00000001
+"DisableSystemRestore"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\DeviceRedirect\Restrictions]
 "AllowRedirect"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\DriverSearching]
+"DontPromptForWindowsUpdate"=dword:00000001
+"DontSearchWindowsUpdate"=dword:00000001
+"DriverServerSelection"=dword:00000001
+"SearchOrderConfig"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\EnhancedStorageDevices]
 "TCGSecurityActivationDisabled"=dword:00000000
@@ -976,15 +1408,23 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\EventLog\Setup]
 "Enabled"="1"
+"MaxSize"=dword:00008000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\EventLog\System]
 "MaxSize"=dword:00008000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\Explorer]
 "NoAutoplayfornonVolume"=dword:00000001
+"NoDataExecutionPrevention"=dword:00000000
+"NoHeapTerminationOnCorruption"=dword:00000000
+"NoUseStoreOpenWith"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\GameDVR]
 "AllowGameDVR"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\GameUX]
+"DownloadGameInfo"=dword:00000000
+"GameUpdateOptions"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}]
 "NoBackgroundPolicy"=dword:00000000
@@ -998,7 +1438,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\Installer]
 "AlwaysInstallElevated"=dword:00000000
+"DisableLUAPatching"=dword:00000001
 "EnableUserControl"=dword:00000000
+"SafeForScripting"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\IPSec\Policy\Local]
 "ActivePolicy"="SOFTWARE\\Policies\\Microsoft\\Windows\\IPSEC\\Policy\\Local\\ipsecPolicy{fef1d3cd-e509-4d7e-ac24-4a23afc9eb26}"
@@ -1290,12 +1732,27 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\LanmanWorkstation]
 "AllowInsecureGuestAuth"=dword:00000000
 
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\LLTD]
+"AllowLLTDIOOnDomain"=dword:00000000
+"AllowLLTDIOOnPublicNet"=dword:00000000
+"AllowRspndrOnDomain"=dword:00000000
+"AllowRspndrOnPublicNet"=dword:00000000
+"EnableLLTDIO"=dword:00000000
+"EnableRspndr"=dword:00000000
+"ProhibitLLTDIOOnPrivateNet"=dword:00000000
+"ProhibitRspndrOnPrivateNet"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\LocationAndSensors]
+"DisableLocation"=dword:00000001
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\Messaging]
 "AllowMessageSync"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\Network Connections]
+"NC_AllowNetBridge_NLA"=dword:00000000
 "NC_PersonalFirewallConfig"=dword:00000000
 "NC_ShowSharedAccessUI"=dword:00000000
+"NC_StdDomainUserSetLocation"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\NetworkConnectivityAssistant]
 "NamePreferenceAllowed"=dword:00000001
@@ -1324,6 +1781,11 @@ Windows Registry Editor Version 5.00
 "enablescriptblockinvocationlogging"=-
 "EnableScriptBlockLogging"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\software\policies\microsoft\windows\powershell\transcription]
+"enableinvocationheader"=-
+"EnableTranscripting"=dword:00000001
+"OutputDirectory"="C:\\ProgramData\\PS_Transcript"
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\PreviewBuilds]
 "EnableConfigFlighting"=dword:00000001
 "EnableExperimentation"=dword:00000000
@@ -1346,8 +1808,15 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\safer\codeidentifiers]
 "authenticodeenabled"=dword:00000000
 
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\ScriptedDiagnosticsProvider\Policy]
+"DisableQueryRemoteServer"=dword:00000000
+"EnableQueryRemoteServer"=dword:00000000
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\SettingSync]
 "EnableBackupForWin8Apps"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\Skydrive]
+"DisableFileSync"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\SrpV2\Appx]
 "EnforcementMode"=dword:00000001
@@ -1360,6 +1829,9 @@ Windows Registry Editor Version 5.00
 "AllowCrossDeviceClipboard"=dword:00000000
 "AllowDomainPINLogon"=dword:00000000
 "DeleteRoamingCache"=dword:00000001
+"DisableLockScreenAppNotifications"=dword:00000001
+"DontDisplayNetworkSelectionUI"=dword:00000001
+"DontEnumerateConnectedUsers"=dword:00000001
 "EnableActivityFeed"=dword:00000000
 "EnableSmartScreen"=dword:00000001
 "EnumerateLocalUsers"=dword:00000000
@@ -1377,14 +1849,35 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\TCPIP\v6Transition]
 "6to4_State"="Disabled"
+"Force_Tunneling"="Enabled"
 "ISATAP_State"="Disabled"
 "Teredo_State"="Disabled"
 
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\TCPIP\v6Transition\IPHTTPS\IPHTTPSInterface]
+"IPHTTPS_ClientState"=dword:00000003
+"IPHTTPS_ClientUrl"="about:blank"
+
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\WcmSvc\GroupPolicy]
 "fBlockNonDomain"=dword:00000001
+"fMinimizeConnections"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\WcmSvc\Local]
 "WCMPresent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\policies\microsoft\windows\wcn\registrars]
+"higherprecedenceregistrar"=-
+"maxwcndevicenumber"=-
+"DisableFlashConfigRegistrar"=dword:00000000
+"DisableInBand802DOT11Registrar"=dword:00000000
+"DisableUPnPRegistrar"=dword:00000000
+"DisableWPDRegistrar"=dword:00000000
+"EnableRegistrars"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\WCN\UI]
+"DisableWcnUi"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\wdi\{9c5a40da-b965-4fc3-8781-88dd50a6299d}]
+"ScenarioExecutionEnabled"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\policies\microsoft\windows\wdi\{c295fbba-fd47-46ac-8bee-b1715ec634e5}]
 "downloadtoolslevel"=-
@@ -1397,8 +1890,10 @@ Windows Registry Editor Version 5.00
 "AllowCloudSearch"=dword:00000000
 "AllowCortana"=dword:00000000
 "AllowIndexingEncryptedStoresOrItems"=dword:00000000
+"ConnectedSearchPrivacy"=dword:00000003
 "ConnectedSearchUseWeb"=dword:00000000
 "DisableWebSearch"=dword:00000001
+"PreventIndexingUncachedExchangeFolders"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\Windows\WindowsUpdate\AU]
 "NoAutoRebootWithLoggedOnUsers"=dword:00000001
@@ -1484,6 +1979,9 @@ Windows Registry Editor Version 5.00
 "{F585C2D8-420B-466C-B1DF-7D3B8DCDAE04}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=44|Name=IPv6-Frag|"
 "{FDAE6651-26AC-47C4-83D2-B02F68966FB4}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=6|RPort2_10=1-52|RPort2_10=54-66|RPort2_10=68-65535|App=%SystemRoot%\\System32\\svchost.exe|Name=svchost tcp|"
 "{FF684A18-2CBA-4CBB-A614-542BC1331834}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=0|Name=HOPOPT|"
+"RemoteDesktop-Shadow-In-TCP"="v2.28|Action=Allow|Active=TRUE|Dir=In|Protocol=6|App=%SystemRoot%\\system32\\RdpSa.exe|Name=@FirewallAPI.dll,-28778|Desc=@FirewallAPI.dll,-28779|EmbedCtxt=@FirewallAPI.dll,-28752|Edge=TRUE|Defer=App|"
+"RemoteDesktop-UserMode-In-TCP"="v2.28|Action=Allow|Active=TRUE|Dir=In|Protocol=6|LPort=3389|App=%SystemRoot%\\system32\\svchost.exe|Svc=termservice|Name=@FirewallAPI.dll,-28775|Desc=@FirewallAPI.dll,-28756|EmbedCtxt=@FirewallAPI.dll,-28752|"
+"RemoteDesktop-UserMode-In-UDP"="v2.28|Action=Allow|Active=TRUE|Dir=In|Protocol=17|LPort=3389|App=%SystemRoot%\\system32\\svchost.exe|Svc=termservice|Name=@FirewallAPI.dll,-28776|Desc=@FirewallAPI.dll,-28777|EmbedCtxt=@FirewallAPI.dll,-28752|"
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\WindowsFirewall\PrivateProfile]
 "DefaultInboundAction"=dword:00000001
@@ -1522,7 +2020,38 @@ Windows Registry Editor Version 5.00
 "AllowWindowsInkWorkspace"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\Policies\Microsoft\WindowsMediaPlayer]
+"DisableAutoUpdate"=dword:00000001
 "GroupPrivacyAcceptance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\WindowsStore]
+"AutoDownload"=dword:00000002
+"DisableOSUpgrade"=dword:00000001
+"RemoveWindowsStore"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\Policies\Microsoft\WMDRM]
+"DisableOnline"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\WOW6432Node\Adobe\Adobe Acrobat\2015\Installer]
+"DisableMaintenance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\WOW6432Node\Adobe\Adobe Acrobat\DC\Installer]
+"DisableMaintenance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\software\WOW6432Node\Microsoft\internet explorer\main\featurecontrol\feature_safe_bindtoobject]
+"excel.exe"=dword:00000001
+"exprwd.exe"=dword:00000000
+"groove.exe"=dword:00000001
+"msaccess.exe"=dword:00000001
+"mse7.exe"=dword:00000000
+"mspub.exe"=dword:00000001
+"onenote.exe"=dword:00000001
+"outlook.exe"=dword:00000001
+"powerpnt.exe"=dword:00000001
+"pptview.exe"=dword:00000001
+"spdesign.exe"=dword:00000001
+"visio.exe"=dword:00000001
+"winproj.exe"=dword:00000001
+"winword.exe"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\WOW6432Node\Microsoft\Office\16.0\Common\COM Compatibility\{D27CDB6E-AE6D-11CF-96B8-444553540000}]
 "ActivationFilterOverride"=dword:00000000
@@ -1540,8 +2069,27 @@ Windows Registry Editor Version 5.00
 "ActivationFilterOverride"=dword:00000000
 "Compatibility Flags"=dword:00000400
 
+[HKEY_LOCAL_MACHINE\software\WOW6432Node\policies\microsoft\internet explorer\main\featurecontrol\feature_safe_bindtoobject]
+"excel.exe"=dword:00000001
+"exprwd.exe"=dword:00000000
+"groove.exe"=dword:00000001
+"msaccess.exe"=dword:00000001
+"mse7.exe"=dword:00000000
+"mspub.exe"=dword:00000001
+"onenote.exe"=dword:00000001
+"outlook.exe"=dword:00000001
+"powerpnt.exe"=dword:00000001
+"pptview.exe"=dword:00000001
+"spdesign.exe"=dword:00000000
+"visio.exe"=dword:00000001
+"winproj.exe"=dword:00000001
+"winword.exe"=dword:00000001
+
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest]
 "UseLogonCredential"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
+"SafeDllSearchMode"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
 "DisableExceptionChainValidation"=dword:00000000
@@ -1549,7 +2097,14 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\EarlyLaunch]
 "DriverLoadPolicy"=dword:00000003
 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Security]
+"WarningLevel"=dword:0000005a
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPSEC]
+"NoDefaultExempt"=dword:00000003
+
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"Hidden"=dword:00000001
 "SMB1"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MrxSmb10]
@@ -1565,7 +2120,12 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
 "DisableIPSourceRouting"=dword:00000002
 "EnableICMPRedirect"=dword:00000000
+"EnableIPAutoConfigurationLimits"=dword:00000001
+"KeepAliveTime"=dword:000493e0
+"PerformRouterDiscovery"=dword:00000000
+"TcpMaxDataRetransmissions"=dword:00000003
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters]
 "DisableIPSourceRouting"=dword:00000002
+"TcpMaxDataRetransmissions"=dword:00000003
 
