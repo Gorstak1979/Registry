@@ -1,5 +1,7 @@
 Windows Registry Editor Version 5.00
 
+; User policy
+
 [HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
 "AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
 "AutofillAddressEnabled"=dword:00000000
@@ -13,88 +15,99 @@ Windows Registry Editor Version 5.00
 "SendSiteInfoToImproveServices"=dword:00000000
 "UserFeedbackAllowed"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Control Panel]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Internet Explorer\Control Panel]
 "FormSuggest Passwords"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Main]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Internet Explorer\Main]
 "FormSuggest Passwords"="no"
 "FormSuggest PW Ask"="no"
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\access\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\access\security]
 "blockcontentexecutionfrominternet"=dword:00000001
 "notbpromptunsignedaddin"=dword:00000001
+"requireaddinsig"=dword:00000001
+"vbadigsigtrustedpublishers"=dword:00000001
+"vbarequiredigsigwithcodesigningeku"=dword:00000000
+"vbarequirelmtrustedpublisher"=dword:00000000
 "vbawarnings"=dword:00000003
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\access\security\trusted locations]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\access\security\trusted locations]
 "allownetworklocations"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\portal]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common]
+"fbabehavior"=dword:00000001
+"fbaenabledhosts"=hex(2):00,00
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\portal]
 "linkpublishingdisabled"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\security]
 "defaultencryption12"="Microsoft Enhanced RSA and AES Cryptographic Provider,AES 256,256"
 "drmencryptproperty"=dword:00000001
 "macroruntimescanscope"=dword:00000002
 "openxmlencryption"="Microsoft Enhanced RSA and AES Cryptographic Provider,AES 256,256"
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\security\trusted locations]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\security\trusted locations]
 "allow user locations"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\toolbars\access]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\toolbars\access]
 "noextensibilitycustomizationfromdocument"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\toolbars\excel]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\toolbars\excel]
 "noextensibilitycustomizationfromdocument"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\toolbars\infopath]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\toolbars\infopath]
 "noextensibilitycustomizationfromdocument"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\toolbars\outlook]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\toolbars\outlook]
 "noextensibilitycustomizationfromdocument"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\toolbars\powerpoint]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\toolbars\powerpoint]
 "noextensibilitycustomizationfromdocument"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\toolbars\project]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\toolbars\project]
 "noextensibilitycustomizationfromdocument"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\toolbars\publisher]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\toolbars\publisher]
 "noextensibilitycustomizationfromdocument"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\toolbars\visio]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\toolbars\visio]
 "noextensibilitycustomizationfromdocument"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\toolbars\word]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\toolbars\word]
 "noextensibilitycustomizationfromdocument"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\trustcenter]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\common\trustcenter]
 "trustbar"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\excel\internet]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\excel\internet]
 "donotloadpictures"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\excel\options]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\excel\options]
 "disableautorepublish"=dword:00000001
 "disableautorepublishwarning"=dword:00000000
 "extractdatadisableui"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\excel\options\binaryoptions]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\excel\options\binaryoptions]
 "fupdateext_78_1"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\excel\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\excel\security]
 "blockcontentexecutionfrominternet"=dword:00000001
 "excelbypassencryptedmacroscan"=dword:00000000
 "extensionhardening"=dword:00000002
 "notbpromptunsignedaddin"=dword:00000001
+"vbadigsigtrustedpublishers"=dword:00000001
+"vbarequiredigsigwithcodesigningeku"=dword:00000000
+"vbarequirelmtrustedpublisher"=dword:00000000
 "vbawarnings"=dword:00000003
 "webservicefunctionwarnings"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\excel\security\external content]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\excel\security\external content]
 "disableddeserverlaunch"=dword:00000001
 "disableddeserverlookup"=dword:00000001
 "enableblockunsecurequeryfiles"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\excel\security\fileblock]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\excel\security\fileblock]
 "dbasefiles"=dword:00000002
 "difandsylkfiles"=dword:00000002
 "htmlandxmlssfiles"=dword:00000002
@@ -110,42 +123,43 @@ Windows Registry Editor Version 5.00
 "xl95workbooks"=dword:00000002
 "xl97workbooksandtemplates"=dword:00000002
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\excel\security\filevalidation]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\excel\security\filevalidation]
 "disableeditfrompv"=dword:00000001
 "enableonload"=dword:00000001
 "openinprotectedview"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\excel\security\protectedview]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\excel\security\protectedview]
 "disableattachmentsinpv"=dword:00000000
 "disableinternetfilesinpv"=dword:00000000
 "disableunsafelocationsinpv"=dword:00000000
 "enabledatabasefileprotectedview"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\excel\security\trusted locations]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\excel\security\trusted locations]
 "allownetworklocations"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\ms project\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\ms project\security]
 "notbpromptunsignedaddin"=dword:00000001
+"requireaddinsig"=dword:00000001
 "vbawarnings"=dword:00000003
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\ms project\security\trusted locations]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\ms project\security\trusted locations]
 "allownetworklocations"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\outlook]
 "disallowattachmentcustomization"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\options\general]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\outlook\options\general]
 "msgformat"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\options\mail]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\outlook\options\mail]
 "internet"=dword:00000000
 "junkmailenablelinks"=dword:00000000
 "junkmailprotection"=dword:00000003
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\rpc]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\outlook\rpc]
 "enablerpcencryption"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\outlook\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\outlook\security]
 "adminsecuritymode"=dword:00000003
 "allowactivexoneoffforms"=dword:00000000
 "allowuserstolowerattachments"=dword:00000000
@@ -169,54 +183,71 @@ Windows Registry Editor Version 5.00
 "usecrlchasing"=dword:00000001
 "warnaboutinvalid"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\powerpoint\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\powerpoint\security]
 "blockcontentexecutionfrominternet"=dword:00000001
 "notbpromptunsignedaddin"=dword:00000001
 "powerpointbypassencryptedmacroscan"=dword:00000000
+"requireaddinsig"=dword:00000001
 "runprograms"=dword:00000000
+"vbadigsigtrustedpublishers"=dword:00000001
+"vbarequiredigsigwithcodesigningeku"=dword:00000000
+"vbarequirelmtrustedpublisher"=dword:00000000
 "vbawarnings"=dword:00000003
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\powerpoint\security\fileblock]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\powerpoint\security\fileblock]
 "binaryfiles"=dword:00000002
 "openinprotectedview"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\powerpoint\security\filevalidation]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\powerpoint\security\filevalidation]
 "disableeditfrompv"=dword:00000001
 "enableonload"=dword:00000001
 "openinprotectedview"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\powerpoint\security\protectedview]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\powerpoint\security\protectedview]
 "disableattachmentsinpv"=dword:00000000
 "disableinternetfilesinpv"=dword:00000000
 "disableunsafelocationsinpv"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\powerpoint\security\trusted locations]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\powerpoint\security\trusted locations]
 "allownetworklocations"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\publisher\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\publisher\security]
 "notbpromptunsignedaddin"=dword:00000001
+"requireaddinsig"=dword:00000001
+"vbadigsigtrustedpublishers"=dword:00000001
+"vbarequiredigsigwithcodesigningeku"=dword:00000000
+"vbarequirelmtrustedpublisher"=dword:00000000
 "vbawarnings"=dword:00000003
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\visio\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\visio\security]
 "blockcontentexecutionfrominternet"=dword:00000001
 "notbpromptunsignedaddin"=dword:00000001
+"requireaddinsig"=dword:00000001
+"vbadigsigtrustedpublishers"=dword:00000001
+"vbarequiredigsigwithcodesigningeku"=dword:00000000
+"vbarequirelmtrustedpublisher"=dword:00000000
 "vbawarnings"=dword:00000003
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\visio\security\fileblock]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\visio\security\fileblock]
 "visio2000files"=dword:00000002
 "visio2003files"=dword:00000002
 "visio50andearlierfiles"=dword:00000002
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\visio\security\trusted locations]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\visio\security\trusted locations]
 "allownetworklocations"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\word\security]
+[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\word\security]
+"allowdde"=-
 "blockcontentexecutionfrominternet"=dword:00000001
 "notbpromptunsignedaddin"=dword:00000001
+"requireaddinsig"=dword:00000001
+"vbadigsigtrustedpublishers"=dword:00000001
+"vbarequiredigsigwithcodesigningeku"=dword:00000000
+"vbarequirelmtrustedpublisher"=dword:00000000
 "vbawarnings"=dword:00000003
 "wordbypassencryptedmacroscan"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\word\security\fileblock]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\word\security\fileblock]
 "openinprotectedview"=dword:00000000
 "word2000files"=dword:00000002
 "word2003files"=dword:00000002
@@ -227,56 +258,58 @@ Windows Registry Editor Version 5.00
 "word97files"=dword:00000002
 "wordxpfiles"=dword:00000002
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\word\security\filevalidation]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\word\security\filevalidation]
 "disableeditfrompv"=dword:00000001
 "enableonload"=dword:00000001
 "openinprotectedview"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\word\security\protectedview]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\word\security\protectedview]
 "disableattachmentsinpv"=dword:00000000
 "disableinternetfilesinpv"=dword:00000000
 "disableunsafelocationsinpv"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\word\security\trusted locations]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\16.0\word\security\trusted locations]
 "allownetworklocations"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\common\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\common\security]
 "automationsecurity"=dword:00000002
 "automationsecuritypublisher"=dword:00000002
 "uficontrols"=dword:00000006
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\office\common\smart tag]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\office\common\smart tag]
 "neverloadmanifests"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\vba\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\vba\security]
+"allowvbaintranetreferences"=dword:00000000
+"disablestrictvbarefssecurity"=dword:00000000
 "loadcontrolsinforms"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows NT\Driver Signing]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows NT\Driver Signing]
 "BehaviorOnFailedVerify"=dword:00000002
 
 [HKEY_CURRENT_USER\software\policies\microsoft\windows nt\printers\wizard]
 "printers page url"=-
 "Downlevel Browse"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows NT\SharedFolders]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows NT\SharedFolders]
 "PublishDfsRoots"=dword:00000000
 "PublishSharedFolders"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows NT\Terminal Services]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
 "AllowSignedFiles"=dword:00000000
 "AllowUnsignedFiles"=dword:00000000
 "DisablePasswordSaving"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CloudContent]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
 "DisableThirdPartySuggestions"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CurrentVersion\PushNotifications]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\PushNotifications]
 "NoToastApplicationNotificationOnLockScreen"=dword:00000001
 
 [HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer]
 "DisableNotificationCenter"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Network Connections]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Network Connections]
 "NC_DeleteAllUserConnection"=dword:00000001
 
 [HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting]
