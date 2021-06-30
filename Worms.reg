@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+; Worms Doors Cleaner
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Rpc\Internet]
+"UseInternetPorts"="N"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole]
+"EnableDCOM"="N"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NetBT\Parameters]
+"SmbDeviceEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NetBT]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Messenger]
+"Start"=dword:00000004

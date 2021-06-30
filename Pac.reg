@@ -1,27 +1,9 @@
 Windows Registry Editor Version 5.00
 
-; DNS
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Policies\Microsoft\Windows NT\DNSClient]
-"NameServer"="5.2.75.75 94.140.14.14"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient]
-"NameServer"="5.2.75.75 94.140.14.14"
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Group Policy Objects\{EC1F4539-05EA-4B3F-81C3-A7B204C8A542}Machine\Software\Policies\Microsoft\Windows NT\DNSClient]
-"NameServer"="5.2.75.75 94.140.14.14"
-
 ; PAC file
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings]
 "EnableLegacyAutoProxyFeature"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
-"AutoConfigURL"="https://raw.githubusercontent.com/Gorstak1979/PAC/main/GSecurity.pac"
-
-; Dnscache service configuration
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
-"EnableAutoDoh"=dword:00000001
-"MaxCacheTtl"=dword:00000001
-"MaxNegativeCacheTtl"=dword:00000000
+"AutoConfigURL"="https://www.proxynova.com/proxy.pac"

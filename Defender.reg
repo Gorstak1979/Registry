@@ -1,0 +1,45 @@
+Windows Registry Editor Version 5.00
+
+; Defender
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection]
+"EnableNetworkProtection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Controlled Folder Access]
+"EnableControlledFolderAccess"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"PUAProtection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\MpEngine]
+"MpEnablePus"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableSmartScreen"=dword:00000001
+"ShellSmartScreenLevel"="Block"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter]
+"EnabledV9"=dword:00000001
+"PreventOverride"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\PhishingFilter]
+"EnabledV9"=dword:00000001
+"PreventOverride"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\MpEngine]
+"MpCloudBlockLevel"=dword:00000006
+"MpBafsExtendedTimeout"=dword:00000032
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\App and Browser protection]
+"DisallowExploitProtectionOverride"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet]
+"SpyNetReporting"=dword:00000001
+"SubmitSamplesConsent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
+"DisableRealtimeMonitoring"=dword:00000000
+
