@@ -1,0 +1,1582 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\DefaultLaunchURLPerms]
+"UnknownURLPerms"=dword:00000003
+"URLPerms"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\Services]
+"TogglePrefsSync"=dword:00000001
+"ToggleWebConnectors"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\SharePoint]
+"DisableSharePointFeatures"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\WebmailProfiles]
+"DisableWebmail"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\WelcomeScreen]
+"ShowWelcomeScreen"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown]
+"DisablePDFHandlerSwitching"=dword:00000001
+"DisableTrustedFolders"=dword:00000001
+"DisableTrustedSites"=dword:00000001
+"EnableFlash"=dword:00000000
+"EnhancedSecurityInBrowser"=dword:00000001
+"EnhancedSecurityStandalone"=dword:00000001
+"FileAttachmentPerms"=dword:00000001
+"ProtectedMode"=dword:00000001
+"ProtectedView"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\Cloud]
+"AdobeSendPluginToggle"=dword:00000001
+"DisableADCFileStore"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\Services]
+"TogglePrefsSync"=dword:00000001
+"ToggleWebConnectors"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\SharePoint]
+"DisableSharePointFeatures"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\WebmailProfiles]
+"DisableWebmail"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\WelcomeScreen]
+"ShowWelcomeScreen"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft Services\AdmPwd]
+"AdmPwdEnabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Assistance\Client\1.0]
+"NoActiveHelp"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Biometrics]
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Biometrics\FacialFeatures]
+"EnhancedAntiSpoofing"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Conferencing]
+"NoRDS"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Control Panel\International]
+"BlockUserInputMethodsForSignIn"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\AutoEnrollment]
+"AEPolicy"=dword:00000007
+"OfflineExpirationPercent"=dword:0000000a
+"OfflineExpirationStoreNames"="MY"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002]
+"EccCurves"=hex(7):4e,00,69,00,73,00,74,00,50,00,33,00,38,00,34,00,00,00,4e,00,\
+  69,00,73,00,74,00,50,00,32,00,35,00,36,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"AutofillCreditCardEnabled"=dword:00000000
+"UserFeedbackAllowed"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\EMET\Defaults]
+"*\\7-Zip\\7z.exe"="-EAF"
+"*\\7-Zip\\7zFM.exe"="-EAF"
+"*\\7-Zip\\7zG.exe"="-EAF"
+"*\\Adobe\\*\\Reader\\AcroRd32.exe"="+EAF+ eaf_modules:AcroRd32.dll;Acrofx32.dll;AcroForm.api"
+"*\\Adobe\\Acrobat*\\Acrobat\\Acrobat.exe"="+EAF+ eaf_modules:AcroRd32.dll;Acrofx32.dll;AcroForm.api"
+"*\\Adobe\\Adobe Photoshop CS*\\Photoshop.exe"=""
+"*\\Foxit Reader\\Foxit Reader.exe"=""
+"*\\Google\\Chrome\\Application\\chrome.exe"="+EAF+ eaf_modules:chrome_child.dll"
+"*\\Google\\Google Talk\\googletalk.exe"="-DEP"
+"*\\Internet Explorer\\iexplore.exe"="+EAF+ eaf_modules:mshtml.dll;flash*.ocx;jscript*.dll;vbscript.dll;vgx.dll +ASR asr_modules:npjpi*.dll;jp2iexp.dll;vgx.dll;msxml4*.dll;wshom.ocx;scrrun.dll;vbscript.dll asr_zones:1;2"
+"*\\iTunes\\iTunes.exe"=""
+"*\\Java\\jre*\\bin\\java.exe"="-HeapSpray"
+"*\\Java\\jre*\\bin\\javaw.exe"="-HeapSpray"
+"*\\Java\\jre*\\bin\\javaws.exe"="-HeapSpray"
+"*\\Microsoft Lync\\communicator.exe"=""
+"*\\mIRC\\mirc.exe"=""
+"*\\Mozilla Firefox\\firefox.exe"="+EAF+ eaf_modules:mozjs.dll;xul.dll"
+"*\\Mozilla Firefox\\plugin-container.exe"=""
+"*\\Mozilla Thunderbird\\plugin-container.exe"=""
+"*\\Mozilla Thunderbird\\thunderbird.exe"=""
+"*\\OFFICE1*\\EXCEL.EXE"="+ASR asr_modules:flash*.ocx"
+"*\\OFFICE1*\\INFOPATH.EXE"=""
+"*\\OFFICE1*\\LYNC.EXE"=""
+"*\\OFFICE1*\\MSACCESS.EXE"=""
+"*\\OFFICE1*\\MSPUB.EXE"=""
+"*\\OFFICE1*\\OIS.EXE"=""
+"*\\OFFICE1*\\OUTLOOK.EXE"=""
+"*\\OFFICE1*\\POWERPNT.EXE"="+ASR asr_modules:flash*.ocx"
+"*\\OFFICE1*\\PPTVIEW.EXE"=""
+"*\\OFFICE1*\\VISIO.EXE"=""
+"*\\OFFICE1*\\VPREVIEW.EXE"=""
+"*\\OFFICE1*\\WINWORD.EXE"="+ASR asr_modules:flash*.ocx"
+"*\\Opera\\*\\opera.exe"=""
+"*\\Opera\\opera.exe"=""
+"*\\Pidgin\\pidgin.exe"=""
+"*\\QuickTime\\QuickTimePlayer.exe"=""
+"*\\Real\\RealPlayer\\realconverter.exe"=""
+"*\\Real\\RealPlayer\\realplay.exe"=""
+"*\\Safari\\Safari.exe"=""
+"*\\SkyDrive\\SkyDrive.exe"=""
+"*\\Skype\\Phone\\Skype.exe"="-EAF"
+"*\\VideoLAN\\VLC\\vlc.exe"=""
+"*\\Winamp\\winamp.exe"=""
+"*\\Windows Live\\Mail\\wlmail.exe"=""
+"*\\Windows Live\\Photo Gallery\\WLXPhotoGallery.exe"=""
+"*\\Windows Live\\Writer\\WindowsLiveWriter.exe"=""
+"*\\Windows Media Player\\wmplayer.exe"="-EAF -MandatoryASLR"
+"*\\Windows NT\\Accessories\\wordpad.exe"=""
+"*\\WinRAR\\rar.exe"=""
+"*\\WinRAR\\unrar.exe"=""
+"*\\WinRAR\\winrar.exe"=""
+"*\\WinZip\\winzip32.exe"=""
+"*\\WinZip\\winzip64.exe"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\EMET\SysSettings]
+"ASLR"=dword:00000003
+"DEP"=dword:00000002
+"SEHOP"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\EventViewer]
+"MicrosoftEventVwrDisableLinks"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\FVE]
+"DisableExternalDMAUnderLock"=dword:00000001
+"EnableBDEWithNoTPM"=dword:00000001
+"MinimumPIN"=dword:00000006
+"UseAdvancedStartup"=dword:00000001
+"UseEnhancedPin"=dword:00000001
+"UseTPM"=dword:00000002
+"UseTPMKey"=dword:00000002
+"UseTPMKeyPIN"=dword:00000002
+"UseTPMPIN"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\InputPersonalization]
+"AllowInputPersonalization"=dword:00000000
+"RestrictImplicitInkCollection"=dword:00000001
+"RestrictImplicitTextCollection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Control Panel]
+"History"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Download]
+"CheckExeSignatures"="yes"
+"RunInvalidSignatures"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Feeds]
+"AllowBasicAuthInClear"=dword:00000000
+"DisableEnclosureDownload"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\IEDevTools]
+"Disabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main]
+"DisableEPMCompat"=dword:00000001
+"Isolation"="PMEM"
+"Isolation64Bit"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_DISABLE_MK_PROTOCOL]
+"(Reserved)"="1"
+"explorer.exe"="1"
+"iexplore.exe"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MIME_HANDLING]
+"(Reserved)"="1"
+"explorer.exe"="1"
+"iexplore.exe"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MIME_SNIFFING]
+"(Reserved)"="1"
+"explorer.exe"="1"
+"iexplore.exe"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_RESTRICT_ACTIVEXINSTALL]
+"(Reserved)"="1"
+"explorer.exe"="1"
+"iexplore.exe"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_RESTRICT_FILEDOWNLOAD]
+"(Reserved)"="1"
+"explorer.exe"="1"
+"iexplore.exe"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_RESTRICT_LEGACY_JSCRIPT_PER_SECURITY_ZONE]
+"excel.exe"=dword:00011000
+"msaccess.exe"=dword:00011000
+"mspub.exe"=dword:00011000
+"onenote.exe"=dword:00011000
+"outlook.exe"=dword:00011000
+"powerpnt.exe"=dword:00011000
+"visio.exe"=dword:00011000
+"winproj.exe"=dword:00011000
+"winword.exe"=dword:00011000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\feature_safe_bindtoobject]
+"excel.exe"=dword:00000001
+"exprwd.exe"=dword:00000000
+"groove.exe"=dword:00000001
+"msaccess.exe"=dword:00000001
+"mse7.exe"=dword:00000000
+"mspub.exe"=dword:00000001
+"onenote.exe"=dword:00000001
+"outlook.exe"=dword:00000001
+"powerpnt.exe"=dword:00000001
+"pptview.exe"=dword:00000001
+"spdesign.exe"=dword:00000000
+"visio.exe"=dword:00000001
+"winproj.exe"=dword:00000001
+"winword.exe"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_SECURITYBAND]
+"(Reserved)"="1"
+"explorer.exe"="1"
+"iexplore.exe"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_WINDOW_RESTRICTIONS]
+"(Reserved)"="1"
+"explorer.exe"="1"
+"iexplore.exe"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_ZONE_ELEVATION]
+"(Reserved)"="1"
+"explorer.exe"="1"
+"iexplore.exe"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\PhishingFilter]
+"EnabledV9"=dword:00000001
+"PreventOverride"=dword:00000001
+"PreventOverrideAppRepUnknown"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Privacy]
+"CleanHistory"=dword:00000000
+"ClearBrowsingHistoryOnExit"=dword:00000000
+"EnableInPrivateBrowsing"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Restrictions]
+"NoCrashDetection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Safety\PrivacIE]
+"DisableLogging"=dword:00000001
+"DisableTrackingProtection"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Security]
+"DisableSecuritySettingsCheck"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Security\ActiveX]
+"BlockNonAdminActiveXInstall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\SQM]
+"DisableCustomerImprovementProgram"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Messenger\Client]
+"CEIP"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge]
+"AllowPrelaunch"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Internet Settings]
+"PreventCertErrorOverrides"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Main]
+"AllowPrelaunch"=dword:00000000
+"FormSuggest Passwords"="no"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter]
+"EnabledV9"=dword:00000001
+"PreventOverride"=dword:00000001
+"PreventOverrideAppRepUnknown"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\TabPreloader]
+"PreventTabPreloading"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT]
+"DontOfferThroughWUAU"=dword:00000001
+"DontReportInfectionInformation"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\office\15.0\common\officeupdate]
+"enableautomaticupdates"=dword:00000001
+"hideenabledisableupdates"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\office\15.0\infopath\security]
+"aptca_allowlist"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\office\15.0\lync]
+"disablehttpconnect"=dword:00000001
+"enablesiphighsecuritymode"=dword:00000001
+"savepassword"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\office\16.0\lync]
+"disablehttpconnect"=dword:00000001
+"enablesiphighsecuritymode"=dword:00000001
+"savepassword"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\OneDrive\AllowTenantList]
+"1111-2222-3333-4444"="1111-2222-3333-4444"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PassportForWork]
+"RequireSecurityDevice"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PassportForWork\ExcludeSecurityDevices]
+"TPM12"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PassportForWork\PINComplexity]
+"MinimumPINLength"=dword:00000006
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Peernet]
+"Disabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Power\PowerSettings\0e796bdb-100d-47d6-a2d5-f7d2daa51f51]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Power\PowerSettings\6738E2C4-E8A5-4A42-B16A-E040E769756E]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Power\PowerSettings\abfc2519-3608-4c2a-94ea-171b0ed546ab]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Power\PowerSettings\E69653CA-CF7F-4F05-AA73-CB833FA90AD4]
+"DCSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SearchCompanion]
+"DisableContentFileUpdates"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Speech]
+"AllowSpeechModelUpdate"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SQMClient\Windows]
+"CEIPEnable"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\TabletTip\1.7]
+"PasswordSecurity"=dword:00000004
+"PasswordSecurityState"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\TPM]
+"OSManagedAuthLevel"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender ExploitGuard\Exploit Protection]
+"ExploitProtectionSettings"="\\\\YOURSHAREHERE\\EP.XML"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\App and Browser protection]
+"DisallowExploitProtectionOverride"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000000
+"DisableAntiVirus"=dword:00000001
+"PUAProtection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Exclusions]
+"DisableAutoExclusions"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\MpEngine]
+"MpBafsExtendedTimeout"=dword:00000032
+"MpCloudBlockLevel"=dword:00000002
+"MpEnablePus"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
+"DisableBehaviorMonitoring"=dword:00000000
+"DisableIOAVProtection"=dword:00000000
+"DisableOnAccessProtection"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000000
+"DisableScanOnRealtimeEnable"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Reporting]
+"DisableEnhancedNotifications"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Scan]
+"DisableEmailScanning"=dword:00000000
+"DisableRemovableDriveScanning"=dword:00000000
+"ScheduleDay"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Signature Updates]
+"ASSignatureDue"=dword:00000007
+"AVSignatureDue"=dword:00000007
+"ScheduleDay"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SpyNet]
+"DisableBlockAtFirstSeen"=dword:00000000
+"SpynetReporting"=dword:00000002
+"SubmitSamplesConsent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Threats]
+"Threats_ThreatSeverityDefaultAction"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Threats\ThreatSeverityDefaultAction]
+"1"="2"
+"2"="2"
+"4"="2"
+"5"="2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR]
+"ExploitGuard_ASR_Rules"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\ASR\Rules]
+"26190899-1602-49e8-8b27-eb1d0a1ce869"="1"
+"3b576869-a4ec-4529-8536-b80a7769e899"="1"
+"5beb7efe-fd9a-4556-801d-275e5ffc04cc"="1"
+"75668c1f-73b5-4cf0-bb93-3ecf5cb7cc84"="1"
+"7674ba52-37eb-4a4f-a9a1-f0f9a1619a2c"="1"
+"92E97FA1-2EDF-4476-BDD6-9DD0B4DDDC7B"="1"
+"9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2"="1"
+"b2b3f03d-6a65-4f7b-a9c7-1c7ef74a9ba4"="1"
+"be9ba2d9-53ea-4cdc-84e5-9b1eeee46550"="1"
+"c1db55ab-c21a-4637-bb3f-a12568109d35"="1"
+"d3e037e1-3eb8-44c8-a917-57927947596d"="1"
+"d4f940ab-401b-4efc-aadc-ad5f3c50688a"="1"
+"e6db77e5-3df2-4cf1-b95a-636979351e5b"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Controlled Folder Access]
+"EnableControlledFolderAccess"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Windows Defender Exploit Guard\Network Protection]
+"EnableNetworkProtection"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient]
+"EnableMulticast"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\MitigationOptions]
+"MitigationOptions_FontBocking"="1000000000000"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Printers]
+"DisableHTTPPrinting"=dword:00000001
+"DisableWebPnPDownload"=dword:00000001
+"DoNotInstallCompatibleDriverFromWindowsUpdate"=dword:00000001
+"RegisterSpoolerRemoteRpcEndPoint"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Printers\PointAndPrint]
+"InForest"=dword:00000001
+"NoWarningNoElevationOnInstall"=dword:00000001
+"Restricted"=dword:00000001
+"ServerList"=""
+"TrustedServers"=dword:00000000
+"UpdatePromptSettings"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Reliability]
+"ShutdownReasonOn"=dword:00000000
+"ShutdownReasonUI"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Rpc]
+"EnableAuthEpResolution"=dword:00000001
+"RestrictRemoteClients"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore]
+"DisableSR"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
+"AllowSignedFiles"=dword:00000000
+"AllowToGetHelp"=dword:00000000
+"AllowUnsignedFiles"=dword:00000000
+"AllowUnsolicited"=dword:00000000
+"DeleteTempDirsOnExit"=dword:00000001
+"DenyTSConnections"=dword:00000001
+"DisableAudioCapture"=dword:00000001
+"DisableCameraRedir"=dword:00000001
+"DisableCcm"=dword:00000001
+"DisableCdm"=dword:00000001
+"DisableClip"=dword:00000001
+"DisableCpm"=dword:00000001
+"DisableLPT"=dword:00000001
+"DisablePasswordSaving"=dword:00000001
+"DisablePNPRedir"=dword:00000001
+"EnableSmartCard"=dword:00000000
+"EncryptRPCTraffic"=dword:00000001
+"fAllowToGetHelp"=dword:00000000
+"fAllowUnsolicited"=dword:00000000
+"fAllowUnsolicitedFullControl"=dword:00000000
+"fDenyTSConnections"=dword:00000001
+"LoggingEnabled"=dword:00000001
+"MinEncryptionLevel"=dword:00000003
+"PerSessionTempDir"=dword:00000001
+"PromptForCredsOnClient"=dword:00000001
+"PromptForPassword"=dword:00000001
+"RedirectOnlyDefaultClientPrinter"=dword:00000001
+"SessionDirectoryExposeServerIP"=dword:00000000
+"ShareControlMessage"="You are about to allow other personnel to remotely control your system. You must monitor the activity until the session is closed."
+"TSAppCompat"=dword:00000000
+"TSEnabled"=dword:00000000
+"TSUserEnabled"=dword:00000000
+"UseCustomMessages"=dword:00000001
+"UseUniversalPrinterDriverFirst"=dword:00000004
+"ViewMessage"="You are about to allow other personnel to remotely connect to your system. Sensitive data should not be displayed during this session."
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client]
+"EnableUsbBlockDeviceBySetupClass"=dword:00000001
+"EnableUsbNoAckIsochWriteToDevice"=dword:00000050
+"EnableUsbSelectDeviceByInterface"=dword:00000001
+"fEnableUsbBlockDeviceBySetupClass"=dword:00000001
+"fEnableUsbNoAckIsochWriteToDevice"=dword:00000050
+"fEnableUsbSelectDeviceByInterface"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client\UsbBlockDeviceBySetupClasses]
+"1000"="{3376f4ce-ff8d-40a2-a80f-bb4359d1415c}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client\UsbSelectDeviceByInterfaces]
+"1000"="{6bdd1fc6-810f-11d0-bec7-08002be2092f}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Windows File Protection]
+"KnownDllList"="nlhtml.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AdvertisingInfo]
+"DisabledByGroupPolicy"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
+"AITEnable"=dword:00000000
+"DisableInventory"=dword:00000001
+"DisablePCA"=dword:00000001
+"DisablePcaUI"=dword:00000000
+"DisableUAR"=dword:00000001
+"VDMDisallowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy]
+"LetAppsAccessAccountInfo"=dword:00000002
+"LetAppsAccessCalendar"=dword:00000002
+"LetAppsAccessCallHistory"=dword:00000002
+"LetAppsAccessCamera"=dword:00000002
+"LetAppsAccessCamera_ForceAllowTheseApps"=hex(7):00,00
+"LetAppsAccessCamera_ForceDenyTheseApps"=hex(7):00,00
+"LetAppsAccessCamera_UserInControlOfTheseApps"=hex(7):00,00
+"LetAppsAccessContacts"=dword:00000002
+"LetAppsAccessEmail"=dword:00000002
+"LetAppsAccessGazeInput"=dword:00000002
+"LetAppsAccessLocation"=dword:00000002
+"LetAppsAccessMessaging"=dword:00000002
+"LetAppsAccessMicrophone"=dword:00000002
+"LetAppsAccessMotion"=dword:00000002
+"LetAppsAccessNotifications"=dword:00000002
+"LetAppsAccessPhone"=dword:00000002
+"LetAppsAccessRadios"=dword:00000002
+"LetAppsAccessTasks"=dword:00000002
+"LetAppsAccessTrustedDevices"=dword:00000002
+"LetAppsActivateWithVoiceAboveLock"=dword:00000002
+"LetAppsGetDiagnosticInfo"=dword:00000002
+"LetAppsRunInBackground"=dword:00000002
+"LetAppsSyncWithDevices"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx]
+"AllowAllTrustedApps"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AxInstaller]
+"OnlyUseAXISForActiveXInstall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableWindowsConsumerFeatures"=dword:00000001
+"DisableWindowsSpotlightFeatures"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Connect]
+"AllowProjectionToPC"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CredentialsDelegation]
+"AllowProtectedCreds"=dword:00000001
+"RestrictedRemoteAdministration"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CredUI]
+"DisablePasswordReveal"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings]
+"CallLegacyWCMPolicies"=dword:00000000
+"CertificateRevocation"=dword:00000001
+"EnableLegacyAutoProxyFeature"=dword:00000000
+"EnableSSL3Fallback"=dword:00000000
+"PreventIgnoreCertErrors"=dword:00000001
+"SecureProtocols"=dword:00000a00
+"Security_HKLM_only"=dword:00000001
+"Security_options_edit"=dword:00000001
+"Security_zones_map_edit"=dword:00000001
+"WarnOnBadCertRecving"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\0]
+"1C00"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\1]
+"1C00"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\2]
+"1C00"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\3]
+"2301"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\4]
+"1C00"=dword:00000000
+"2301"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Url History]
+"DaysToKeep"=dword:00000028
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap]
+"UNCAsIntranet"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0]
+"1C00"=dword:00000000
+"270C"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1]
+"1201"=dword:00000003
+"1C00"=dword:00010000
+"270C"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2]
+"1201"=dword:00000003
+"1C00"=dword:00010000
+"270C"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1209"=dword:00000003
+"120b"=dword:00000003
+"120c"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1409"=dword:00000000
+"140C"=dword:00000003
+"1606"=dword:00000003
+"1607"=dword:00000003
+"160A"=dword:00000003
+"1802"=dword:00000003
+"1804"=dword:00000003
+"1806"=dword:00000001
+"1809"=dword:00000000
+"1A00"=dword:00010000
+"1C00"=dword:00000000
+"2001"=dword:00000003
+"2004"=dword:00000003
+"2101"=dword:00000003
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2200"=dword:00000003
+"2301"=dword:00000000
+"2402"=dword:00000003
+"2500"=dword:00000000
+"2708"=dword:00000003
+"2709"=dword:00000003
+"270C"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4]
+"1001"=dword:00000003
+"1004"=dword:00000003
+"1200"=dword:00000003
+"1201"=dword:00000003
+"1206"=dword:00000003
+"1209"=dword:00000003
+"120b"=dword:00000003
+"120c"=dword:00000003
+"1400"=dword:00000003
+"1402"=dword:00000003
+"1405"=dword:00000003
+"1406"=dword:00000003
+"1407"=dword:00000003
+"1409"=dword:00000000
+"140C"=dword:00000003
+"1606"=dword:00000003
+"1607"=dword:00000003
+"1608"=dword:00000003
+"160A"=dword:00000003
+"1802"=dword:00000003
+"1803"=dword:00000003
+"1804"=dword:00000003
+"1806"=dword:00000003
+"1809"=dword:00000000
+"1A00"=dword:00030000
+"1C00"=dword:00000000
+"2000"=dword:00000003
+"2001"=dword:00000003
+"2004"=dword:00000003
+"2101"=dword:00000003
+"2102"=dword:00000003
+"2103"=dword:00000003
+"2200"=dword:00000003
+"2301"=dword:00000000
+"2402"=dword:00000003
+"2500"=dword:00000000
+"2708"=dword:00000003
+"2709"=dword:00000003
+"270C"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+"DoNotShowFeedbackNotifications"=dword:00000001
+"LimitEnhancedDiagnosticDataWindowsAnalytics"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization]
+"DODownloadMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Device Metadata]
+"PreventDeviceMetadataFromNetwork"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard]
+"ConfigureSystemGuardLaunch"=dword:00000001
+"EnableVirtualizationBasedSecurity"=dword:00000001
+"HVCIMATRequired"=dword:00000001
+"HypervisorEnforcedCodeIntegrity"=dword:00000001
+"LsaCfgFlags"=dword:00000001
+"RequirePlatformSecurityFeatures"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions]
+"DenyDeviceClasses"=dword:00000001
+"DenyDeviceClassesRetroactive"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\denydeviceclasses]
+"1"="{d48179be-ec20-11d1-b6b8-00c04fa372a7}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Settings]
+"AllowRemoteRPC"=dword:00000000
+"AllSigningEqual"=dword:00000001
+"DisableSendGenericDriverNotFoundToWER"=dword:00000001
+"DisableSendRequestAdditionalSoftwareToWER"=dword:00000001
+"DisableSystemRestore"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceRedirect\Restrictions]
+"AllowRedirect"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DriverSearching]
+"DontPromptForWindowsUpdate"=dword:00000001
+"DontSearchWindowsUpdate"=dword:00000001
+"DriverServerSelection"=dword:00000001
+"DriverUpdateWizardWuSearchEnabled"=dword:00000001
+"SearchOrderConfig"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EnhancedStorageDevices]
+"TCGSecurityActivationDisabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application]
+"MaxSize"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EventLog\ProtectedEventLogging]
+"EnableProtectedEventLogging"=dword:00000001
+"EncryptionCertificate"=hex(7):00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EventLog\Security]
+"MaxSize"=dword:00030000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EventLog\Setup]
+"Enabled"="1"
+"MaxSize"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EventLog\System]
+"MaxSize"=dword:00008000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"NoAutoplayfornonVolume"=dword:00000001
+"NoDataExecutionPrevention"=dword:00000000
+"NoHeapTerminationOnCorruption"=dword:00000000
+"NoUseStoreOpenWith"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\FileHistory]
+"Disabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR]
+"AllowgameDVR"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameUX]
+"DownloadGameInfo"=dword:00000000
+"GameUpdateOptions"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}]
+"NoBackgroundPolicy"=dword:00000000
+"NoGPOListChanges"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\HandwritingErrorReports]
+"PreventHandwritingErrorReports"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\HomeGroup]
+"DisableHomeGroup"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Installer]
+"AlwaysInstallElevated"=dword:00000000
+"DisableLUAPatching"=dword:00000001
+"EnableUserControl"=dword:00000000
+"SafeForScripting"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Kernel DMA Protection]
+"DeviceEnumerationPolicy"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation]
+"AllowInsecureGuestAuth"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LLTD]
+"AllowLLTDIOOnDomain"=dword:00000000
+"AllowLLTDIOOnPublicNet"=dword:00000000
+"AllowRspndrOnDomain"=dword:00000000
+"AllowRspndrOnPublicNet"=dword:00000000
+"EnableLLTDIO"=dword:00000000
+"EnableRspndr"=dword:00000000
+"ProhibitLLTDIOOnPrivateNet"=dword:00000000
+"ProhibitRspndrOnPrivateNet"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LocationAndSensors]
+"DisableLocation"=dword:00000001
+"DisableLocationScripting"=dword:00000001
+"DisableSensors"=dword:00000001
+"DisableWindowsLocationProvider"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Messaging]
+"AllowMessageSync"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Network Connections]
+"NC_AllowNetBridge_NLA"=dword:00000000
+"NC_PersonalFirewallConfig"=dword:00000000
+"NC_ShowSharedAccessUI"=dword:00000000
+"NC_StdDomainUserSetLocation"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\NetworkConnectivityAssistant]
+"NamePreferenceAllowed"=dword:00000001
+"ShowUI"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\NetworkConnectivityAssistant\Probes]
+"PING:myserver.corp.contoso.com"="PING:myserver.corp.contoso.com"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths]
+"\\\\*\\NETLOGON"="RequireMutualAuthentication=1,RequireIntegrity=1"
+"\\\\*\\SYSVOL"="RequireMutualAuthentication=1,RequireIntegrity=1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\NvCache]
+"OptimizeBootAndResume"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive]
+"DisableFileSync"=dword:00000001
+"DisableFileSyncNGSC"=dword:00000001
+"DisableLibrariesDefaultSaveToOneDrive"=dword:00000001
+"DisableMeteredNetworkFileSync"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreen"=dword:00000000
+"NoLockScreenCamera"=dword:00000001
+"NoLockScreenSlideshow"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PowerShell]
+"EnableScripts"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PowerShell\scriptblocklogging]
+"EnableScriptBlockLogging"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PowerShell\transcription]
+"EnableTranscripting"=dword:00000001
+"OutputDirectory"="C:\\ProgramData\\PS_Transcript"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PreviewBuilds]
+"EnableConfigFlighting"=dword:00000001
+"EnableExperimentation"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched]
+"NonBestEffortLimit"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\RemovableStorageDevices\{53f56308-b6bf-11d0-94f2-00a0c91efb8b}]
+"Deny_Execute"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\RemovableStorageDevices\{53f5630b-b6bf-11d0-94f2-00a0c91efb8b}]
+"Deny_Execute"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\RemovableStorageDevices\{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}]
+"Deny_Execute"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\RemovableStorageDevices\{53f56311-b6bf-11d0-94f2-00a0c91efb8b}]
+"Deny_Execute"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers]
+"authenticodeenabled"=dword:00000000
+"DefaultLevel"=dword:00000000
+"ExecutableTypes"=hex(7):5a,00,4f,00,4f,00,00,00,5a,00,4c,00,4f,00,00,00,5a,00,\
+  46,00,53,00,45,00,4e,00,44,00,54,00,4f,00,54,00,41,00,52,00,47,00,45,00,54,00,\
+  00,00,5a,00,00,00,58,00,50,00,53,00,00,00,58,00,50,00,49,00,00,00,58,00,4e,00,\
+  4b,00,00,00,58,00,4d,00,4c,00,00,00,58,00,4c,00,57,00,00,00,58,00,4c,00,54,00,\
+  58,00,00,00,58,00,4c,00,54,00,4d,00,00,00,58,00,4c,00,54,00,00,00,58,00,4c,00,\
+  53,00,4d,00,00,00,58,00,4c,00,53,00,42,00,00,00,58,00,4c,00,4d,00,00,00,58,00,\
+  4c,00,4c,00,00,00,58,00,4c,00,44,00,00,00,58,00,4c,00,43,00,00,00,58,00,4c,00,\
+  42,00,00,00,58,00,4c,00,41,00,4d,00,00,00,58,00,4c,00,41,00,00,00,58,00,42,00,\
+  41,00,50,00,00,00,57,00,53,00,43,00,00,00,57,00,53,00,00,00,57,00,49,00,5a,00,\
+  00,00,57,00,45,00,42,00,53,00,49,00,54,00,45,00,00,00,57,00,45,00,42,00,50,00,\
+  4e,00,50,00,00,00,57,00,45,00,42,00,4c,00,4f,00,43,00,00,00,57,00,42,00,4b,00,\
+  00,00,57,00,41,00,53,00,00,00,56,00,58,00,44,00,00,00,56,00,53,00,57,00,00,00,\
+  56,00,53,00,54,00,00,00,56,00,53,00,53,00,00,00,56,00,53,00,4d,00,41,00,43,00,\
+  52,00,4f,00,53,00,00,00,56,00,42,00,50,00,00,00,56,00,42,00,00,00,54,00,53,00,\
+  50,00,00,00,54,00,4f,00,4f,00,4c,00,00,00,54,00,4d,00,50,00,00,00,54,00,4c,00,\
+  42,00,00,00,54,00,48,00,45,00,4d,00,45,00,00,00,54,00,47,00,5a,00,00,00,54,00,\
+  45,00,52,00,4d,00,49,00,4e,00,41,00,4c,00,00,00,54,00,45,00,52,00,4d,00,00,00,\
+  54,00,41,00,5a,00,00,00,54,00,41,00,52,00,00,00,53,00,59,00,53,00,00,00,53,00,\
+  57,00,46,00,00,00,53,00,54,00,4d,00,00,00,53,00,50,00,4c,00,00,00,53,00,4c,00,\
+  4b,00,00,00,53,00,4c,00,44,00,58,00,00,00,53,00,4c,00,44,00,4d,00,00,00,53,00,\
+  49,00,54,00,00,00,53,00,48,00,53,00,00,00,53,00,48,00,42,00,00,00,53,00,45,00,\
+  54,00,54,00,49,00,4e,00,47,00,43,00,4f,00,4e,00,54,00,45,00,4e,00,54,00,2d,00,\
+  4d,00,53,00,00,00,53,00,45,00,41,00,52,00,43,00,48,00,2d,00,4d,00,53,00,00,00,\
+  53,00,45,00,41,00,52,00,43,00,48,00,43,00,4f,00,4e,00,4e,00,45,00,43,00,54,00,\
+  4f,00,52,00,2d,00,4d,00,53,00,00,00,53,00,45,00,41,00,00,00,53,00,43,00,54,00,\
+  00,00,52,00,54,00,46,00,00,00,52,00,51,00,59,00,00,00,52,00,50,00,59,00,00,00,\
+  52,00,45,00,47,00,00,00,52,00,42,00,00,00,50,00,59,00,5a,00,57,00,00,00,50,00,\
+  59,00,5a,00,00,00,50,00,59,00,58,00,00,00,50,00,59,00,57,00,5a,00,00,00,50,00,\
+  59,00,57,00,00,00,50,00,59,00,54,00,00,00,50,00,59,00,50,00,00,00,50,00,59,00,\
+  4f,00,00,00,50,00,59,00,49,00,00,00,50,00,59,00,44,00,45,00,00,00,50,00,59,00,\
+  44,00,00,00,50,00,59,00,43,00,00,00,50,00,59,00,33,00,00,00,50,00,59,00,00,00,\
+  50,00,58,00,44,00,00,00,50,00,53,00,54,00,52,00,45,00,47,00,00,00,50,00,53,00,\
+  54,00,00,00,50,00,53,00,44,00,4d,00,31,00,00,00,50,00,53,00,44,00,31,00,00,00,\
+  50,00,52,00,4e,00,00,00,50,00,52,00,49,00,4e,00,54,00,45,00,52,00,45,00,58,00,\
+  50,00,4f,00,52,00,54,00,00,00,50,00,52,00,47,00,00,00,50,00,52,00,46,00,00,00,\
+  50,00,50,00,54,00,4d,00,00,00,50,00,50,00,53,00,58,00,00,00,50,00,50,00,53,00,\
+  4d,00,00,00,50,00,50,00,53,00,00,00,50,00,50,00,41,00,4d,00,00,00,50,00,4f,00,\
+  54,00,58,00,00,00,50,00,4f,00,54,00,4d,00,00,00,50,00,4f,00,54,00,00,00,50,00,\
+  4c,00,47,00,00,00,50,00,4c,00,00,00,50,00,4b,00,47,00,00,00,50,00,49,00,46,00,\
+  00,00,50,00,49,00,00,00,50,00,45,00,52,00,4c,00,00,00,50,00,43,00,44,00,00,00,\
+  4f,00,53,00,44,00,00,00,4f,00,51,00,59,00,00,00,4f,00,50,00,53,00,00,00,4f,00,\
+  44,00,53,00,00,00,4e,00,53,00,48,00,00,00,4e,00,4c,00,53,00,00,00,4d,00,59,00,\
+  44,00,4f,00,43,00,53,00,00,00,4d,00,55,00,49,00,00,00,4d,00,53,00,55,00,00,00,\
+  4d,00,53,00,54,00,00,00,4d,00,53,00,50,00,00,00,4d,00,53,00,48,00,58,00,4d,00,\
+  4c,00,00,00,4d,00,53,00,48,00,32,00,58,00,4d,00,4c,00,00,00,4d,00,53,00,48,00,\
+  32,00,00,00,4d,00,53,00,48,00,31,00,58,00,4d,00,4c,00,00,00,4d,00,53,00,48,00,\
+  31,00,00,00,4d,00,53,00,48,00,00,00,4d,00,53,00,43,00,00,00,4d,00,4f,00,46,00,\
+  00,00,4d,00,4d,00,43,00,00,00,4d,00,48,00,54,00,4d,00,4c,00,00,00,4d,00,48,00,\
+  54,00,00,00,4d,00,44,00,5a,00,00,00,4d,00,44,00,57,00,00,00,4d,00,44,00,54,00,\
+  00,00,4d,00,44,00,4e,00,00,00,4d,00,44,00,46,00,00,00,4d,00,44,00,45,00,00,00,\
+  4d,00,44,00,42,00,00,00,4d,00,44,00,41,00,00,00,4d,00,43,00,46,00,00,00,4d,00,\
+  41,00,59,00,00,00,4d,00,41,00,57,00,00,00,4d,00,41,00,56,00,00,00,4d,00,41,00,\
+  55,00,00,00,4d,00,41,00,54,00,00,00,4d,00,41,00,53,00,00,00,4d,00,41,00,52,00,\
+  00,00,4d,00,41,00,51,00,00,00,4d,00,41,00,50,00,49,00,4d,00,41,00,49,00,4c,00,\
+  00,00,4d,00,41,00,4e,00,49,00,46,00,45,00,53,00,54,00,00,00,4d,00,41,00,4d,00,\
+  00,00,4d,00,41,00,47,00,00,00,4d,00,41,00,46,00,00,00,4d,00,41,00,44,00,00,00,\
+  4c,00,5a,00,48,00,00,00,4c,00,4f,00,43,00,41,00,4c,00,00,00,4c,00,49,00,42,00,\
+  52,00,41,00,52,00,59,00,2d,00,4d,00,53,00,00,00,4c,00,44,00,42,00,00,00,4c,00,\
+  41,00,43,00,43,00,44,00,42,00,00,00,4b,00,53,00,48,00,00,00,4a,00,4f,00,42,00,\
+  00,00,4a,00,4e,00,4c,00,50,00,00,00,4a,00,41,00,52,00,00,00,49,00,54,00,53,00,\
+  00,00,49,00,53,00,50,00,00,00,49,00,51,00,59,00,00,00,49,00,4e,00,53,00,00,00,\
+  49,00,4e,00,46,00,00,00,49,00,4e,00,49,00,00,00,49,00,4d,00,45,00,00,00,49,00,\
+  45,00,00,00,48,00,54,00,54,00,00,00,48,00,54,00,4d,00,00,00,48,00,54,00,43,00,\
+  00,00,48,00,54,00,41,00,00,00,48,00,51,00,58,00,00,00,48,00,50,00,4a,00,00,00,\
+  48,00,4c,00,50,00,00,00,48,00,45,00,58,00,00,00,47,00,5a,00,00,00,47,00,52,00,\
+  50,00,00,00,47,00,4c,00,4b,00,00,00,47,00,41,00,44,00,47,00,45,00,54,00,00,00,\
+  46,00,58,00,50,00,00,00,46,00,4f,00,4e,00,00,00,44,00,52,00,56,00,00,00,44,00,\
+  51,00,59,00,00,00,44,00,4f,00,54,00,58,00,00,00,44,00,4f,00,54,00,4d,00,00,00,\
+  44,00,4f,00,54,00,00,00,44,00,4f,00,43,00,4d,00,00,00,44,00,4f,00,43,00,42,00,\
+  00,00,44,00,4d,00,47,00,00,00,44,00,4c,00,4c,00,00,00,44,00,49,00,52,00,00,00,\
+  44,00,49,00,46,00,00,00,44,00,49,00,41,00,47,00,43,00,41,00,42,00,00,00,44,00,\
+  45,00,53,00,4b,00,54,00,4f,00,50,00,00,00,44,00,45,00,53,00,4b,00,4c,00,49,00,\
+  4e,00,4b,00,00,00,44,00,45,00,52,00,00,00,44,00,43,00,52,00,00,00,44,00,42,00,\
+  00,00,43,00,53,00,56,00,00,00,43,00,53,00,48,00,00,00,43,00,52,00,58,00,00,00,\
+  43,00,52,00,54,00,00,00,43,00,52,00,41,00,5a,00,59,00,00,00,43,00,50,00,58,00,\
+  00,00,43,00,4f,00,4d,00,4d,00,41,00,4e,00,44,00,00,00,43,00,4e,00,56,00,00,00,\
+  43,00,4e,00,54,00,00,00,43,00,4c,00,42,00,00,00,43,00,4c,00,41,00,53,00,53,00,\
+  00,00,43,00,4c,00,41,00,00,00,43,00,48,00,4d,00,00,00,43,00,48,00,49,00,00,00,\
+  43,00,46,00,47,00,00,00,43,00,45,00,52,00,00,00,43,00,44,00,42,00,00,00,43,00,\
+  41,00,42,00,00,00,42,00,5a,00,32,00,00,00,42,00,5a,00,00,00,42,00,41,00,53,00,\
+  00,00,41,00,58,00,00,00,41,00,53,00,58,00,00,00,41,00,53,00,50,00,58,00,00,00,\
+  41,00,53,00,50,00,00,00,41,00,53,00,41,00,00,00,41,00,52,00,43,00,00,00,41,00,\
+  50,00,50,00,52,00,45,00,46,00,2d,00,4d,00,53,00,00,00,41,00,50,00,50,00,4c,00,\
+  49,00,43,00,41,00,54,00,49,00,4f,00,4e,00,00,00,41,00,50,00,50,00,00,00,41,00,\
+  49,00,52,00,00,00,41,00,44,00,50,00,00,00,41,00,44,00,4e,00,00,00,41,00,44,00,\
+  45,00,00,00,41,00,44,00,00,00,41,00,43,00,4d,00,00,00,41,00,43,00,43,00,44,00,\
+  54,00,00,00,41,00,43,00,43,00,44,00,52,00,00,00,41,00,43,00,43,00,44,00,45,00,\
+  00,00,41,00,43,00,43,00,44,00,41,00,00,00,49,00,4e,00,46,00,00,00,4d,00,53,00,\
+  49,00,00,00,50,00,53,00,31,00,00,00,57,00,50,00,43,00,00,00,00,00
+"Levels"=dword:00071000
+"LogFileName"="C:\\Windows\\system32\\LogFiles\\SAFER.LOG"
+"PolicyScope"=dword:00000001
+"TransparentEnabled"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\Paths\{C7AF2ED3-7F52-49AA-9970-712A1D8FB8F4}]
+"Description"="Python"
+"ItemData"="Python*"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\Paths\{C7AF2ED3-7F52-49AA-9970-712A1D8FB8F5}]
+"Description"="Network js"
+"ItemData"="*/*.js"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\Paths\{C7AF2ED3-7F52-49AA-9970-712A1D8FB8F6}]
+"Description"="Network exe"
+"ItemData"="*/*.exe"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\Paths\{C7AF2ED3-7F52-49AA-9970-712A1D8FB8F7}]
+"Description"="Network tmp"
+"ItemData"="*/*.tmp"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\Paths\{C7AF2ED3-7F52-49AA-9970-712A1D8FB8F8}]
+"Description"="Network msi"
+"ItemData"="*/*.msi"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\Paths\{C7AF2ED3-7F52-49AA-9970-712A1D8FB8F9}]
+"Description"="Network vbs"
+"ItemData"="*/*.vbs"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\URLZones\{643ADE30-2030-45AA-B54D-6C407941D825}]
+"ItemData"=dword:00000000
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\URLZones\{643ADE31-2030-45AA-B54D-6C407941D825}]
+"ItemData"=dword:00000001
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\URLZones\{643ADE32-2030-45AA-B54D-6C407941D825}]
+"ItemData"=dword:00000002
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\URLZones\{643ADE33-2030-45AA-B54D-6C407941D825}]
+"ItemData"=dword:00000003
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\0\URLZones\{643ADE34-2030-45AA-B54D-6C407941D825}]
+"ItemData"=dword:00000004
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{1016bbe0-a716-428b-822e-DE544B6A3520}]
+"Description"="*Allow EXE files"
+"ItemData"="*.exe"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{1016bbe0-a716-428b-822e-DE544B6A3521}]
+"Description"="*Allow TMP files"
+"ItemData"="*.tmp"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{1016bbe0-a716-428b-822e-DE544B6A3522}]
+"Description"="*Allow MSI files"
+"ItemData"="*.msi"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{191CD7FA-F240-4A17-8986-94D480A6C8CA}]
+"Description"="%SystemRoot%"
+"ItemData"="C:\\Windows"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{625B53C3-AB48-4EC1-BA1F-A1EF4146FC19}]
+"Description"="*LNK : Start menu (AppData\\Roaming)"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,52,00,\
+  6f,00,61,00,6d,00,69,00,6e,00,67,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,53,00,\
+  74,00,61,00,72,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,2a,00,2e,00,6c,00,\
+  6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{625B53C3-AB48-4EC1-BA1F-A1EF4146FC20}]
+"Description"="*LNK : Start menu programs (AppData\\Roaming)"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,52,00,\
+  6f,00,61,00,6d,00,69,00,6e,00,67,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,53,00,\
+  74,00,61,00,72,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,50,00,72,00,6f,00,\
+  67,00,72,00,61,00,6d,00,73,00,5c,00,2a,00,2e,00,6c,00,6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{625B53C3-AB48-4EC1-BA1F-A1EF4146FC21}]
+"Description"="*LNK : Start menu programs subfolders (AppData\\Roaming)"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,52,00,\
+  6f,00,61,00,6d,00,69,00,6e,00,67,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,53,00,\
+  74,00,61,00,72,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,50,00,72,00,6f,00,\
+  67,00,72,00,61,00,6d,00,73,00,5c,00,2a,00,5c,00,2a,00,2e,00,6c,00,6e,00,6b,00,\
+  00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{625B53C3-AB48-4EC1-BA1F-A1EF4146FC22}]
+"Description"="*LNK : Start menu"
+"ItemData"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\*.lnk"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{625B53C3-AB48-4EC1-BA1F-A1EF4146FC23}]
+"Description"="*LNK : Start menu programs"
+"ItemData"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\*.lnk"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{625B53C3-AB48-4EC1-BA1F-A1EF4146FC24}]
+"Description"="*LNK : Start menu programs subfolders"
+"ItemData"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\*\\*.lnk"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{625B53C3-AB48-4EC1-BA1F-A1EF4146FC25}]
+"Description"="*LNK : Start menu programs sub-subfolders"
+"ItemData"="C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\*\\*\\*.lnk"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{625B53C3-AB48-4EC1-BA1F-A1EF4146FC26}]
+"Description"="*LNK : Start menu programs sub-subfolders (AppData\\Roaming)"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,52,00,\
+  6f,00,61,00,6d,00,69,00,6e,00,67,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,53,00,\
+  74,00,61,00,72,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,50,00,72,00,6f,00,\
+  67,00,72,00,61,00,6d,00,73,00,5c,00,2a,00,5c,00,2a,00,5c,00,2a,00,2e,00,6c,00,\
+  6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{6D809377-6AF0-444B-8957-A3773F02200E}]
+"Description"="*Default : Program Files on 64 bits"
+"ItemData"=hex(2):25,00,48,00,4b,00,45,00,59,00,5f,00,4c,00,4f,00,43,00,41,00,\
+  4c,00,5f,00,4d,00,41,00,43,00,48,00,49,00,4e,00,45,00,5c,00,53,00,6f,00,66,00,\
+  74,00,77,00,61,00,72,00,65,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,\
+  66,00,74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,43,00,75,00,\
+  72,00,72,00,65,00,6e,00,74,00,56,00,65,00,72,00,73,00,69,00,6f,00,6e,00,5c,00,\
+  50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,57,00,36,00,34,00,33,00,32,00,44,00,\
+  69,00,72,00,25,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}]
+"Description"="*Default : Program Files (x86) on 64 bits"
+"ItemData"=hex(2):25,00,48,00,4b,00,45,00,59,00,5f,00,4c,00,4f,00,43,00,41,00,\
+  4c,00,5f,00,4d,00,41,00,43,00,48,00,49,00,4e,00,45,00,5c,00,53,00,6f,00,66,00,\
+  74,00,77,00,61,00,72,00,65,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,\
+  66,00,74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,43,00,75,00,\
+  72,00,72,00,65,00,6e,00,74,00,56,00,65,00,72,00,73,00,69,00,6f,00,6e,00,5c,00,\
+  50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,44,00,\
+  69,00,72,00,20,00,28,00,78,00,38,00,36,00,29,00,25,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{905E63B6-C1BF-494E-B29C-65B732D3D21A}]
+"Description"="*Default : Program Files (default)"
+"ItemData"=hex(2):25,00,48,00,4b,00,45,00,59,00,5f,00,4c,00,4f,00,43,00,41,00,\
+  4c,00,5f,00,4d,00,41,00,43,00,48,00,49,00,4e,00,45,00,5c,00,53,00,6f,00,66,00,\
+  74,00,77,00,61,00,72,00,65,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,\
+  66,00,74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,43,00,75,00,\
+  72,00,72,00,65,00,6e,00,74,00,56,00,65,00,72,00,73,00,69,00,6f,00,6e,00,5c,00,\
+  50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,44,00,\
+  69,00,72,00,25,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{99a0fd77-ed0c-4e30-91ff-9d51428d2f21}]
+"Description"="*LNK : Power menu group 1"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,4c,00,\
+  6f,00,63,00,61,00,6c,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,\
+  74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,57,00,69,00,6e,00,\
+  58,00,5c,00,47,00,72,00,6f,00,75,00,70,00,31,00,5c,00,2a,00,2e,00,6c,00,6e,00,\
+  6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{99a0fd77-ed0c-4e30-91ff-9d51428d2f22}]
+"Description"="*LNK : Power menu group 2"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,4c,00,\
+  6f,00,63,00,61,00,6c,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,\
+  74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,57,00,69,00,6e,00,\
+  58,00,5c,00,47,00,72,00,6f,00,75,00,70,00,32,00,5c,00,2a,00,2e,00,6c,00,6e,00,\
+  6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{99a0fd77-ed0c-4e30-91ff-9d51428d2f23}]
+"Description"="*LNK : Power menu group 3"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,4c,00,\
+  6f,00,63,00,61,00,6c,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,\
+  74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,57,00,69,00,6e,00,\
+  58,00,5c,00,47,00,72,00,6f,00,75,00,70,00,33,00,5c,00,2a,00,2e,00,6c,00,6e,00,\
+  6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{B4BFCC3A-DB2C-424C-B029-7FE99A87C639}]
+"Description"="*LNK : ### Desktop"
+"ItemData"=hex(2):25,00,48,00,4b,00,45,00,59,00,5f,00,43,00,55,00,52,00,52,00,\
+  45,00,4e,00,54,00,5f,00,55,00,53,00,45,00,52,00,5c,00,53,00,4f,00,46,00,54,00,\
+  57,00,41,00,52,00,45,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,\
+  74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,43,00,75,00,72,00,\
+  72,00,65,00,6e,00,74,00,56,00,65,00,72,00,73,00,69,00,6f,00,6e,00,5c,00,45,00,\
+  78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,5c,00,53,00,68,00,65,00,6c,00,6c,00,\
+  20,00,46,00,6f,00,6c,00,64,00,65,00,72,00,73,00,5c,00,44,00,65,00,73,00,6b,00,\
+  74,00,6f,00,70,00,25,00,2a,00,2e,00,6c,00,6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{B4BFCC3A-DB2C-424C-B029-7FE99A87C640}]
+"Description"="*LNK : OneDriveDesktop subfolders"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,4f,00,6e,00,65,00,44,00,72,00,69,00,76,00,65,00,5c,00,\
+  44,00,65,00,73,00,6b,00,74,00,6f,00,70,00,5c,00,2a,00,5c,00,2a,00,2e,00,6c,00,\
+  6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}]
+"Description"="*LNK : Desktop"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,44,00,65,00,73,00,6b,00,74,00,6f,00,70,00,5c,00,2a,00,\
+  2e,00,6c,00,6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{B4BFCC3A-DB2C-424C-B029-7FE99A87C642}]
+"Description"="*LNK : Desktop subfolders"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,44,00,65,00,73,00,6b,00,74,00,6f,00,70,00,5c,00,2a,00,\
+  5c,00,2a,00,2e,00,6c,00,6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{B4BFCC3A-DB2C-424C-B029-7FE99A87C643}]
+"Description"="*LNK : Public Desktop"
+"ItemData"=hex(2):43,00,3a,00,5c,00,55,00,73,00,65,00,72,00,73,00,5c,00,50,00,\
+  75,00,62,00,6c,00,69,00,63,00,5c,00,44,00,65,00,73,00,6b,00,74,00,6f,00,70,00,\
+  5c,00,2a,00,2e,00,6c,00,6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{B4BFCC3A-DB2C-424C-B029-7FE99A87C644}]
+"Description"="*LNK : TaskBar (AppData\\Roaming)"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,52,00,\
+  6f,00,61,00,6d,00,69,00,6e,00,67,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,5c,00,49,00,6e,00,74,00,65,00,72,00,6e,00,65,00,74,00,20,00,\
+  45,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,5c,00,51,00,75,00,69,00,63,00,\
+  6b,00,20,00,4c,00,61,00,75,00,6e,00,63,00,68,00,5c,00,55,00,73,00,65,00,72,00,\
+  20,00,50,00,69,00,6e,00,6e,00,65,00,64,00,5c,00,54,00,61,00,73,00,6b,00,42,00,\
+  61,00,72,00,5c,00,2a,00,2e,00,6c,00,6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{B4BFCC3A-DB2C-424C-B029-7FE99A87C645}]
+"Description"="*LNK : Quick Launch (AppData\\Roaming)"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,52,00,\
+  6f,00,61,00,6d,00,69,00,6e,00,67,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,5c,00,49,00,6e,00,74,00,65,00,72,00,6e,00,65,00,74,00,20,00,\
+  45,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,5c,00,51,00,75,00,69,00,63,00,\
+  6b,00,20,00,4c,00,61,00,75,00,6e,00,63,00,68,00,5c,00,2a,00,2e,00,6c,00,6e,00,\
+  6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{B4BFCC3A-DB2C-424C-B029-7FE99A87C646}]
+"Description"="*LNK : ImplicitAppShortcuts (AppData\\Roaming)"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,52,00,\
+  6f,00,61,00,6d,00,69,00,6e,00,67,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,5c,00,49,00,6e,00,74,00,65,00,72,00,6e,00,65,00,74,00,20,00,\
+  45,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,5c,00,51,00,75,00,69,00,63,00,\
+  6b,00,20,00,4c,00,61,00,75,00,6e,00,63,00,68,00,5c,00,55,00,73,00,65,00,72,00,\
+  20,00,50,00,69,00,6e,00,6e,00,65,00,64,00,5c,00,49,00,6d,00,70,00,6c,00,69,00,\
+  63,00,69,00,74,00,41,00,70,00,70,00,53,00,68,00,6f,00,72,00,74,00,63,00,75,00,\
+  74,00,73,00,5c,00,2a,00,2e,00,6c,00,6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{B4BFCC3A-DB2C-424C-B029-7FE99A87C647}]
+"Description"="*LNK : ImplicitAppShortcuts subfolder (AppData\\Roaming)"
+"ItemData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,\
+  4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,5c,00,52,00,\
+  6f,00,61,00,6d,00,69,00,6e,00,67,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,5c,00,49,00,6e,00,74,00,65,00,72,00,6e,00,65,00,74,00,20,00,\
+  45,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,5c,00,51,00,75,00,69,00,63,00,\
+  6b,00,20,00,4c,00,61,00,75,00,6e,00,63,00,68,00,5c,00,55,00,73,00,65,00,72,00,\
+  20,00,50,00,69,00,6e,00,6e,00,65,00,64,00,5c,00,49,00,6d,00,70,00,6c,00,69,00,\
+  63,00,69,00,74,00,41,00,70,00,70,00,53,00,68,00,6f,00,72,00,74,00,63,00,75,00,\
+  74,00,73,00,5c,00,2a,00,5c,00,2a,00,2e,00,6c,00,6e,00,6b,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{C77CC673-3BA3-427D-C9DE-76D54F6DC97E}]
+"Description"="%ProgramFiles(x86)%"
+"ItemData"="C:\\Program Files (x86)"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{C77F1D47-1FE1-4E7A-869C-57659099E912}]
+"Description"="%CommonProgramFiles(x86)%"
+"ItemData"="C:\\Program Files (x86)\\Common Files"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{D2C34AB2-529A-46B2-B293-FC853FCE72EA}]
+"Description"="%ProgramFiles(x86)%"
+"ItemData"="C:\\Program Files"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{D2C37D40-EA2D-11DC-8F61-0004760DFF53}]
+"Description"="%CommonProgramFiles%"
+"ItemData"="C:\\Program Files\\Common Files"
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{f073d7e6-ec43-4bf6-a2a8-536eb63b03c8}]
+"Description"="*Default : ProgramData\\Microsoft\\Windows Defender"
+"ItemData"=hex(2):25,00,48,00,4b,00,45,00,59,00,5f,00,4c,00,4f,00,43,00,41,00,\
+  4c,00,5f,00,4d,00,41,00,43,00,48,00,49,00,4e,00,45,00,5c,00,53,00,4f,00,46,00,\
+  54,00,57,00,41,00,52,00,45,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,\
+  66,00,74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,44,00,65,00,\
+  66,00,65,00,6e,00,64,00,65,00,72,00,5c,00,50,00,72,00,6f,00,64,00,75,00,63,00,\
+  74,00,41,00,70,00,70,00,44,00,61,00,74,00,61,00,50,00,61,00,74,00,68,00,25,00,\
+  00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{F38BF404-1D43-42F2-9305-67DE0B28FC23}]
+"Description"="*Default : Windows"
+"ItemData"=hex(2):25,00,48,00,4b,00,45,00,59,00,5f,00,4c,00,4f,00,43,00,41,00,\
+  4c,00,5f,00,4d,00,41,00,43,00,48,00,49,00,4e,00,45,00,5c,00,53,00,6f,00,66,00,\
+  74,00,77,00,61,00,72,00,65,00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,\
+  66,00,74,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,4e,00,54,00,\
+  5c,00,43,00,75,00,72,00,72,00,65,00,6e,00,74,00,56,00,65,00,72,00,73,00,69,00,\
+  6f,00,6e,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,\
+  25,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{F38BF404-1D43-42F2-9305-67DE0B28FC24}]
+"Description"="NVIDIA"
+"ItemData"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,\
+  5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,44,00,72,00,69,00,\
+  76,00,65,00,72,00,53,00,74,00,6f,00,72,00,65,00,5c,00,46,00,69,00,6c,00,65,00,\
+  52,00,65,00,70,00,6f,00,73,00,69,00,74,00,6f,00,72,00,79,00,5c,00,6e,00,76,00,\
+  2a,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{F38BF404-1D43-42F2-9305-67DE0B28FC25}]
+"Description"="INTEL"
+"ItemData"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,\
+  5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,44,00,72,00,69,00,\
+  76,00,65,00,72,00,53,00,74,00,6f,00,72,00,65,00,5c,00,46,00,69,00,6c,00,65,00,\
+  52,00,65,00,70,00,6f,00,73,00,69,00,74,00,6f,00,72,00,79,00,5c,00,69,00,69,00,\
+  67,00,68,00,64,00,2a,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{F38BF404-1D43-42F2-9305-67DE0B28FC26}]
+"Description"="AMD1"
+"ItemData"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,\
+  5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,44,00,72,00,69,00,\
+  76,00,65,00,72,00,53,00,74,00,6f,00,72,00,65,00,5c,00,46,00,69,00,6c,00,65,00,\
+  52,00,65,00,70,00,6f,00,73,00,69,00,74,00,6f,00,72,00,79,00,5c,00,75,00,30,00,\
+  33,00,36,00,36,00,39,00,36,00,39,00,2a,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\262144\Paths\{F38BF404-1D43-42F2-9305-67DE0B28FC27}]
+"Description"="AMD2"
+"ItemData"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,\
+  5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,44,00,72,00,69,00,\
+  76,00,65,00,72,00,53,00,74,00,6f,00,72,00,65,00,5c,00,46,00,69,00,6c,00,65,00,\
+  52,00,65,00,70,00,6f,00,73,00,69,00,74,00,6f,00,72,00,79,00,5c,00,75,00,30,00,\
+  33,00,36,00,37,00,31,00,32,00,36,00,2a,00,00,00
+"SaferFlags"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\ScheduledDiagnostics]
+"EnabledExecution"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\ScriptedDiagnosticsProvider\Policy]
+"DisableQueryRemoteServer"=dword:00000000
+"EnableQueryRemoteServer"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SettingSync]
+"DisableApplicationSettingSync"=dword:00000002
+"DisableApplicationSettingSyncUserOverride"=dword:00000001
+"DisableAppSyncSettingSync"=dword:00000002
+"DisableAppSyncSettingSyncUserOverride"=dword:00000001
+"DisableCredentialsSettingSync"=dword:00000002
+"DisableCredentialsSettingSyncUserOverride"=dword:00000001
+"DisableDesktopThemeSettingSync"=dword:00000002
+"DisableDesktopThemeSettingSyncUserOverride"=dword:00000001
+"DisablePersonalizationSettingSync"=dword:00000002
+"DisablePersonalizationSettingSyncUserOverride"=dword:00000001
+"DisableSettingSync"=dword:00000002
+"DisableSettingSyncUserOverride"=dword:00000001
+"DisableStartLayoutSettingSync"=dword:00000002
+"DisableStartLayoutSettingSyncUserOverride"=dword:00000001
+"DisableSyncOnPaidNetwork"=dword:00000001
+"DisableWebBrowserSettingSync"=dword:00000002
+"DisableWebBrowserSettingSyncUserOverride"=dword:00000001
+"DisableWindowsSettingSync"=dword:00000002
+"DisableWindowsSettingSyncUserOverride"=dword:00000001
+"EnableBackupForWin8Apps"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Skydrive]
+"DisableFileSync"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"AllowClipboardHistory"=dword:00000000
+"AllowCrossDeviceClipboard"=dword:00000000
+"AllowDomainPINLogon"=dword:00000000
+"DeleteRoamingCache"=dword:00000001
+"DisableAcrylicBackgroundOnLogon"=dword:00000001
+"DisableLockScreenAppNotifications"=dword:00000001
+"DisableLogonBackgroundImage"=dword:00000001
+"DontDisplayNetworkSelectionUI"=dword:00000001
+"DontEnumerateConnectedUsers"=dword:00000001
+"EnableActivityFeed"=dword:00000000
+"EnableCdp"=dword:00000000
+"EnableMmx"=dword:00000000
+"EnableSmartScreen"=dword:00000001
+"EnumerateLocalUsers"=dword:00000000
+"LocalProfile"=dword:00000001
+"PrimaryComputerEnabledRUP"=dword:00000001
+"PublishUserActivities"=dword:00000000
+"ShellSmartScreenLevel"="Block"
+"UploadUserActivities"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System\Fdeploy]
+"PrimaryComputerEnabledFR"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\TabletPC]
+"PreventHandwritingDataSharing"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\TCPIP\v6Transition]
+"6to4_State"="Disabled"
+"Force_Tunneling"="Enabled"
+"ISATAP_State"="Disabled"
+"Teredo_State"="Disabled"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\TCPIP\v6Transition\IPHTTPS\IPHTTPSInterface]
+"IPHTTPS_ClientState"=dword:00000003
+"IPHTTPS_ClientUrl"="about:blank"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WcmSvc\GroupPolicy]
+"fBlockNonDomain"=dword:00000001
+"fMinimizeConnections"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WcmSvc\Local]
+"WCMPresent"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\wcn\registrars]
+"DisableFlashConfigRegistrar"=dword:00000000
+"DisableInBand802DOT11Registrar"=dword:00000000
+"DisableUPnPRegistrar"=dword:00000000
+"DisableWPDRegistrar"=dword:00000000
+"EnableRegistrars"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\wcn\UI]
+"DisableWcnUi"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WDI\{9c5a40da-b965-4fc3-8781-88dd50a6299d}]
+"ScenarioExecutionEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WDI\{c295fbba-fd47-46ac-8bee-b1715ec634e5}]
+"DownloadToolsEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting]
+"Disabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCloudSearch"=dword:00000000
+"AllowCortana"=dword:00000000
+"AllowCortanaAboveLock"=dword:00000000
+"AllowIndexingEncryptedStoresOrItems"=dword:00000000
+"AllowSearchToUseLocation"=dword:00000000
+"ConnectedSearchPrivacy"=dword:00000003
+"ConnectedSearchUseWeb"=dword:00000000
+"ConnectedSearchUseWebOverMeteredConnections"=dword:00000000
+"DisableWebSearch"=dword:00000001
+"DoNotUseWebResults"=dword:00000001
+"PreventIndexingUncachedExchangeFolders"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"ExcludeWUDriversInQualityUpdate"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoRebootWithLoggedOnUsers"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WinRM\Client]
+"AllowBasic"=dword:00000000
+"AllowCredSSP"=dword:00000000
+"AllowDigest"=dword:00000000
+"AllowKerberos"=dword:00000000
+"AllowNegotiate"=dword:00000000
+"AllowUnencryptedTraffic"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service]
+"AllowAutoConfig"=dword:00000000
+"AllowBasic"=dword:00000000
+"AllowCredSSP"=dword:00000000
+"AllowKerberos"=dword:00000000
+"AllowNegotiate"=dword:00000000
+"AllowUnencryptedTraffic"=dword:00000000
+"DisableRunAs"=dword:00000001
+"HttpCompatibilityListener"=dword:00000000
+"HttpsCompatibilityListener"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service\WinRS]
+"AllowRemoteShellAccess"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WorkFolders]
+"AutoProvision"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin]
+"autoWorkplaceJoin"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall]
+"PolicyVersion"=dword:0000021a
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile]
+"DefaultInboundAction"=dword:00000001
+"DefaultOutboundAction"=dword:00000000
+"DisableNotifications"=dword:00000001
+"EnableFirewall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging]
+"LogDroppedPackets"=dword:00000001
+"LogFileSize"=dword:00004000
+"LogSuccessfulConnections"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\FirewallRules]
+"{0BC6A788-6049-404C-8620-9CA84A90F9B6}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=112|Name=VRRP|"
+"{0F63FC11-772D-4598-AB3A-3F9D739A7A61}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=2|Name=IGMP|"
+"{17116813-ABCE-4858-B7A9-E89149F88B6C}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=6|LPort2_10=1-67|LPort2_10=69-65535|App=%SystemRoot%\\System32\\svchost.exe|Name=svchost tcp|"
+"{1AB67954-115D-4DFD-84D8-49E004B70A56}"="v2.30|Action=Block|Active=TRUE|Dir=Out|App=%SystemRoot%\\explorer.exe|Name=explorer|"
+"{2544C3F8-BA9E-4614-AC6B-A4358E25173B}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=17|LPort2_10=0-66|LPort2_10=69-1687|LPort2_10=1689-55554|LPort2_10=55556-65535|Name=4Torrents55555|"
+"{32BEF19F-0DB3-4BEA-B185-B7C669DEDB5C}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=6|LPort2_10=0-66|LPort2_10=69-1687|LPort2_10=1689-55554|LPort2_10=55556-65535|Name=4Torrents55555|"
+"{3FB5D65C-BB7B-42BD-BD7D-1735BFCE144B}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=6|RPort2_10=0-52|RPort2_10=54-66|RPort2_10=69-79|RPort2_10=82-442|RPort2_10=444-1000|Name=TCP|"
+"{4CCAC58A-3834-4DB0-AFDD-E8CC4D206B72}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=17|RPort2_10=1-52|RPort2_10=54-66|RPort2_10=68-65535|App=%SystemRoot%\\System32\\svchost.exe|Name=svchost udp|"
+"{4CE8D585-B3FD-45D6-A549-50641B7AA09E}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=60|Name=IPv6-Opts|"
+"{4FA87E52-9D33-46B4-9B1E-F43DF96E676F}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=43|Name=IPv6-Route|"
+"{6BF200DF-6F9D-483F-A1B5-C0A479FD1C16}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=1|Name=ICMPv4|"
+"{6C0065E8-6B53-4880-B115-6D2109BE121D}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=59|Name=IPv6-NoNxt|"
+"{7242246C-02FC-4FE0-8C87-23A869806620}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=60|Name=IPv6-Opts|"
+"{7E711471-0197-4CDF-8A8F-285D204E8913}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=2|Name=IGMP|"
+"{8B541AB8-A1FB-4AB4-978F-903483AB0603}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=58|Name=ICMPv6|"
+"{9347CAC4-6908-4E8B-9D45-4954CD686CEA}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=59|Name=IPv6-NoNxt|"
+"{A4C2280E-D96D-474C-B7F8-5E551B50D803}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=47|Name=GRE|"
+"{ACEB7955-9176-45E9-9BCE-3890B231D802}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=41|Name=IPv6|"
+"{B4B43298-454A-4775-B7F9-D149EE70AC22}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=43|Name=IPv6-Route|"
+"{C0504930-7FC9-45D0-A4C0-0183C69168E8}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=113|Name=PGM|"
+"{CAC95F10-BE12-4508-8F75-4450051399D8}"="v2.30|Action=Block|Active=TRUE|Dir=In|App=%SystemRoot%\\explorer.exe|Name=explorer|"
+"{CD2E1B81-F907-434F-9855-A0D6ADC47EA2}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=115|Name=L2TP|"
+"{D3507B32-E394-4E1C-BA60-375DC173A87C}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=44|Name=IPv6-Frag|"
+"{D554D4E5-28A3-4785-808B-7CCCB3732B40}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=47|Name=GRE|"
+"{D69FCB0D-6042-4155-A0D8-71167AC1FF00}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=1|Name=ICMPv4|"
+"{D6DBF400-55D5-46F2-9360-961063CA41F8}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=112|Name=VRRP|"
+"{D956505D-BC90-412D-81C5-195D127761D7}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=113|Name=PGM|"
+"{DFEBB9A0-90D2-42E9-A551-D3D3BCE876DB}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=58|Name=ICMPv6|"
+"{E61EC587-47AB-4195-856D-A11A843A0EF2}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=115|Name=L2TP|"
+"{E75B5D96-DA86-40F7-AEB3-F5B69409CB07}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=0|Name=HOPOPT|"
+"{E7EDF93C-E442-4E1F-94E2-79A1B371D763}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=41|Name=IPv6|"
+"{EDA4A164-6B30-4C99-841D-1536CA429AFC}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=17|LPort2_10=1-67|LPort2_10=69-65535|App=%SystemRoot%\\System32\\svchost.exe|Name=svchost udp|"
+"{F2A0DA0C-2ACD-434F-B64F-9E224920DCAD}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=17|RPort2_10=0-52|RPort2_10=54-66|RPort2_10=69-79|RPort2_10=82-442|RPort2_10=444-1000|Name=UDP|"
+"{F585C2D8-420B-466C-B1DF-7D3B8DCDAE04}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=44|Name=IPv6-Frag|"
+"{FDAE6651-26AC-47C4-83D2-B02F68966FB4}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=6|RPort2_10=1-52|RPort2_10=54-66|RPort2_10=68-65535|App=%SystemRoot%\\System32\\svchost.exe|Name=svchost tcp|"
+"{FF684A18-2CBA-4CBB-A614-542BC1331834}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=0|Name=HOPOPT|"
+"RemoteDesktop-Shadow-In-TCP"="v2.28|Action=Block|Active=TRUE|Dir=In|Protocol=6|App=%SystemRoot%\\system32\\RdpSa.exe|Name=@FirewallAPI.dll,-28778|Desc=@FirewallAPI.dll,-28779|EmbedCtxt=@FirewallAPI.dll,-28752|Edge=TRUE|Defer=App|"
+"RemoteDesktop-UserMode-In-TCP"="v2.28|Action=Block|Active=TRUE|Dir=In|Protocol=6|LPort=3389|App=%SystemRoot%\\system32\\svchost.exe|Svc=termservice|Name=@FirewallAPI.dll,-28775|Desc=@FirewallAPI.dll,-28756|EmbedCtxt=@FirewallAPI.dll,-28752|"
+"RemoteDesktop-UserMode-In-UDP"="v2.28|Action=Block|Active=TRUE|Dir=In|Protocol=17|LPort=3389|App=%SystemRoot%\\system32\\svchost.exe|Svc=termservice|Name=@FirewallAPI.dll,-28776|Desc=@FirewallAPI.dll,-28777|EmbedCtxt=@FirewallAPI.dll,-28752|"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile]
+"DefaultInboundAction"=dword:00000001
+"DefaultOutboundAction"=dword:00000000
+"DisableNotifications"=dword:00000001
+"EnableFirewall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging]
+"LogDroppedPackets"=dword:00000001
+"LogFileSize"=dword:00004000
+"LogSuccessfulConnections"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile]
+"AllowLocalIPsecPolicyMerge"=dword:00000000
+"AllowLocalPolicyMerge"=dword:00000000
+"DefaultInboundAction"=dword:00000001
+"DefaultOutboundAction"=dword:00000000
+"DisableNotifications"=dword:00000001
+"EnableFirewall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging]
+"LogDroppedPackets"=dword:00000001
+"LogFileSize"=dword:00004000
+"LogSuccessfulConnections"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\StandardProfile]
+"EnableFirewall"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\StandardProfile\Logging]
+"LogDroppedPackets"=dword:00000000
+"LogFilePath"="%systemroot%\\system32\\LogFiles\\Firewall\\pfirewall.log"
+"LogFileSize"=dword:00001000
+"LogSuccessfulConnections"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsInkWorkspace]
+"AllowWindowsInkWorkspace"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer]
+"DisableAutoUpdate"=dword:00000001
+"GroupPrivacyAcceptance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore]
+"AutoDownload"=dword:00000002
+"DisableOSUpgrade"=dword:00000001
+"RemoveWindowsStore"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WMDRM]
+"DisableOnline"=dword:00000001
+
