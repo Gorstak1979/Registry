@@ -321,68 +321,68 @@ Windows Registry Editor Version 5.00
 "AllowEncryptionOracle"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\2015\FeatureLockdown]
-"bDisablePDFHandlerSwitching"=dword:00000001
-"bDisableTrustedFolders"=dword:00000001
-"bDisableTrustedSites"=dword:00000001
-"bEnableFlash"=dword:00000000
-"bEnhancedSecurityInBrowser"=dword:00000001
-"bEnhancedSecurityStandalone"=dword:00000001
-"bProtectedMode"=dword:00000001
-"iFileAttachmentPerms"=dword:00000001
-"iProtectedView"=dword:00000002
+"DisablePDFHandlerSwitching"=dword:00000001
+"DisableTrustedFolders"=dword:00000001
+"DisableTrustedSites"=dword:00000001
+"EnableFlash"=dword:00000000
+"EnhancedSecurityInBrowser"=dword:00000001
+"EnhancedSecurityStandalone"=dword:00000001
+"ProtectedMode"=dword:00000001
+"FileAttachmentPerms"=dword:00000001
+"ProtectedView"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cCloud]
-"bAdobeSendPluginToggle"=dword:00000001
-"bDisableADCFileStore"=dword:00000001
+"AdobeSendPluginToggle"=dword:00000001
+"DisableADCFileStore"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cDefaultLaunchURLPerms]
-"iUnknownURLPerms"=dword:00000003
-"iURLPerms"=dword:00000001
+"UnknownURLPerms"=dword:00000003
+"URLPerms"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cServices]
-"bTogglePrefsSync"=dword:00000001
-"bToggleWebConnectors"=dword:00000001
+"TogglePrefsSync"=dword:00000001
+"ToggleWebConnectors"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cSharePoint]
-"bDisableSharePointFeatures"=dword:00000001
+"DisableSharePointFeatures"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cWebmailProfiles]
-"bDisableWebmail"=dword:00000001
+"DisableWebmail"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\2015\FeatureLockdown\cWelcomeScreen]
-"bShowWelcomeScreen"=dword:00000000
+"ShowWelcomeScreen"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\DC\FeatureLockdown]
-"bDisablePDFHandlerSwitching"=dword:00000001
-"bDisableTrustedFolders"=dword:00000001
-"bDisableTrustedSites"=dword:00000001
-"bEnableFlash"=dword:00000000
-"bEnhancedSecurityInBrowser"=dword:00000001
-"bEnhancedSecurityStandalone"=dword:00000001
-"bProtectedMode"=dword:00000001
-"iFileAttachmentPerms"=dword:00000001
-"iProtectedView"=dword:00000002
+"DisablePDFHandlerSwitching"=dword:00000001
+"DisableTrustedFolders"=dword:00000001
+"DisableTrustedSites"=dword:00000001
+"EnableFlash"=dword:00000000
+"EnhancedSecurityInBrowser"=dword:00000001
+"EnhancedSecurityStandalone"=dword:00000001
+"ProtectedMode"=dword:00000001
+"FileAttachmentPerms"=dword:00000001
+"ProtectedView"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cCloud]
-"bAdobeSendPluginToggle"=dword:00000001
-"bDisableADCFileStore"=dword:00000001
+"AdobeSendPluginToggle"=dword:00000001
+"DisableADCFileStore"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cDefaultLaunchURLPerms]
-"iUnknownURLPerms"=dword:00000003
-"iURLPerms"=dword:00000001
+"UnknownURLPerms"=dword:00000003
+"URLPerms"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cServices]
-"bTogglePrefsSync"=dword:00000001
-"bToggleWebConnectors"=dword:00000001
+"TogglePrefsSync"=dword:00000001
+"ToggleWebConnectors"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cSharePoint]
-"bDisableSharePointFeatures"=dword:00000001
+"DisableSharePointFeatures"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cWebmailProfiles]
-"bDisableWebmail"=dword:00000001
+"DisableWebmail"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\Adobe\Adobe Acrobat\DC\FeatureLockdown\cWelcomeScreen]
-"bShowWelcomeScreen"=dword:00000000
+"ShowWelcomeScreen"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\software\policies\Microsoft Services\AdmPwd]
 "AdmPwdEnabled"=dword:00000001
@@ -703,23 +703,23 @@ Windows Registry Editor Version 5.00
 "RestrictRemoteClients"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\software\policies\microsoft\windows nt\terminal services]
-"fallowfullcontrol"=-
-"fallowunsolicitedfullcontrol"=-
-"fusemailto"=-
+"allowfullcontrol"=-
+"allowunsolicitedfullcontrol"=-
+"usemailto"=-
 "maxticketexpiry"=-
 "maxticketexpiryunits"=-
 "DeleteTempDirsOnExit"=dword:00000001
 "DisablePasswordSaving"=dword:00000001
-"fAllowToGetHelp"=dword:00000000
-"fAllowUnsolicited"=dword:00000000
-"fDenyTSConnections"=dword:00000001
-"fDisableCcm"=dword:00000001
-"fDisableCdm"=dword:00000001
-"fDisableLPT"=dword:00000001
-"fDisablePNPRedir"=dword:00000001
-"fEnableSmartCard"=dword:00000001
-"fEncryptRPCTraffic"=dword:00000001
-"fPromptForPassword"=dword:00000001
+"AllowToGetHelp"=dword:00000000
+"AllowUnsolicited"=dword:00000000
+"DenyTSConnections"=dword:00000001
+"DisableCcm"=dword:00000001
+"DisableCdm"=dword:00000001
+"DisableLPT"=dword:00000001
+"DisablePNPRedir"=dword:00000001
+"EnableSmartCard"=dword:00000001
+"EncryptRPCTraffic"=dword:00000001
+"PromptForPassword"=dword:00000001
 "LoggingEnabled"=dword:00000001
 "MinEncryptionLevel"=dword:00000003
 "PerSessionTempDir"=dword:00000001
