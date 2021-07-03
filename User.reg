@@ -2,799 +2,799 @@ Windows Registry Editor Version 5.00
 
 ; User policy
 
-[HKEY_CURRENT_USER\keycupoliciesmsvbasecurity]
+[HKEY_CURRENT_USER\keycuPoliciesmsvbaSecurity]
 "loadcontrolsinforms"=-
 
-[HKEY_CURRENT_USER\software\Adobe\Adobe Acrobat\2015\AVGeneral]
-"bFIPSMode"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Adobe\Adobe Acrobat\2015\AVGeneral]
+"FIPSMode"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\Adobe\Adobe Acrobat\2015\Security\cDigSig\cAdobeDownload]
-"bLoadSettingsFromURL"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Adobe\Adobe Acrobat\2015\Security\cDigSig\cAdobeDownload]
+"LoadSettingsFromURL"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\Adobe\Adobe Acrobat\2015\Security\cDigSig\cEUTLDownload]
-"bLoadSettingsFromURL"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Adobe\Adobe Acrobat\2015\Security\cDigSig\cEUTLDownload]
+"bLoadSettingsFromURL"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\Adobe\Adobe Acrobat\DC\AVGeneral]
-"bFIPSMode"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Adobe\Adobe Acrobat\DC\AVGeneral]
+"FIPSMode"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\Adobe\Adobe Acrobat\DC\Security\cDigSig\cAdobeDownload]
-"bLoadSettingsFromURL"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Adobe\Adobe Acrobat\DC\Security\cDigSig\cAdobeDownload]
+"LoadSettingsFromURL"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\Adobe\Adobe Acrobat\DC\Security\cDigSig\cEUTLDownload]
-"bLoadSettingsFromURL"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Adobe\Adobe Acrobat\DC\Security\cDigSig\cEUTLDownload]
+"LoadSettingsFromURL"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Policies\Attachments]
-"HideZoneInfoOnProperties"=dword:00000001
-"SaveZoneInformation"=dword:00000002
-"ScanWithAntiVirus"=dword:00000003
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"HideZoneInfoOnProperties"=dWord:00000001
+"SaveZoneInformation"=dWord:00000002
+"ScanWithAntiVirus"=dWord:00000003
 
-[HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"NoInplaceSharing"=dword:00000001
-"NoPreviewPane"=dword:00000001
-"NoReadingPane"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoInplaceSharing"=dWord:00000001
+"NoPreviewPane"=dWord:00000001
+"NoReadingPane"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Policies\System]
-"NoDispScrSavPage"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoDispScrSavPage"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\Assistance\Client\1.0]
-"NoExplicitFeedback"=dword:00000001
-"NoImplicitFeedback"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Assistance\Client\1.0]
+"NoExplicitFeedback"=dWord:00000001
+"NoImplicitFeedback"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\Internet Explorer\Control Panel]
-"FormSuggest"=dword:00000001
-"FormSuggest Passwords"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Internet Explorer\Control Panel]
+"FormSuggest"=dWord:00000001
+"FormSuggest PassWords"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\Internet Explorer\Main]
-"FormSuggest Passwords"="no"
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Internet Explorer\Main]
+"FormSuggest PassWords"="no"
 "FormSuggest PW Ask"="no"
 "Use FormSuggest"="no"
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\access\internet]
-"donotunderlinehyperlinks"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Access\Internet]
+"donotunderlinehyperlinks"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\access\security]
-"modaltrustdecisiononly"=dword:00000000
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbawarnings"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Access\Security]
+"modalTrustdecisiononly"=dWord:00000000
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\access\settings]
-"default file format"=dword:0000000c
-"noconvertdialog"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Access\Settings]
+"default File format"=dWord:0000000c
+"noconvertdialog"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common]
-"qmenable"=dword:00000000
-"updatereliabilitydata"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common]
+"qmenable"=dWord:00000000
+"updatereliabilitydata"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\broadcast]
-"disabledefaultservice"=dword:00000001
-"disableprogrammaticaccess"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Broadcast]
+"disabledefaultservice"=dWord:00000001
+"disableprogrammaticAccess"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\documentinformationpanel]
-"beaconing"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\DocumentInformationPanel]
+"beaconing"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\drm]
-"disablecreation"=dword:00000000
-"includehtml"=dword:00000000
-"requireconnection"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Drm]
+"disablecreation"=dWord:00000000
+"includehtml"=dWord:00000000
+"requireconnection"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\feedback]
-"enabled"=dword:00000000
-"includescreenshot"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Feedback]
+"enabled"=dWord:00000000
+"includescreenshot"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\fixedformat]
-"disablefixedformatdocproperties"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\FixedFormat]
+"disablefixedformatdocproperties"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\general]
-"shownfirstrunoptin"=dword:00000001
-"skydrivesigninoption"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\General]
+"shownFirstRunoptin"=dWord:00000001
+"skydriveSigninOption"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\internet]
-"opendocumentsreadwritewhilebrowsing"=dword:00000000
-"relyonvml"=dword:00000000
-"useonlinecontent"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Internet]
+"opendocumentsreadwritewhilebrowsing"=dWord:00000000
+"relyonvml"=dWord:00000000
+"useonlineContent"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\mailsettings]
-"disablesignatures"=dword:00000000
-"plainwraplen"=dword:00000084
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\MailSettings]
+"disableSignatures"=dWord:00000000
+"plainwraplen"=dWord:00000084
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\portal]
-"linkpublishingdisabled"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Portal]
+"linkpublishingdisabled"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\ptwatson]
-"ptwoptin"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\PtWatson]
+"ptwoptin"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\research\translation]
-"useonline"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Research\Translation]
+"useonline"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\roaming]
-"roamingsettingsdisabled"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Roaming]
+"RoamingSettingsdisabled"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Security]
 "defaultencryption12"="Microsoft Enhanced RSA and AES Cryptographic Provider,AES 256,256"
-"disablehyperlinkwarning"=dword:00000000
-"disablepasswordui"=dword:00000000
-"drmencryptproperty"=dword:00000001
-"encryptdocprops"=dword:00000001
+"disablehyperlinkwarning"=dWord:00000000
+"disablepassWordui"=dWord:00000000
+"Drmencryptproperty"=dWord:00000001
+"encryptdocprops"=dWord:00000001
 "openxmlencryption"="Microsoft Enhanced RSA and AES Cryptographic Provider,AES 256,256"
-"openxmlencryptproperty"=dword:00000001
+"openxmlencryptproperty"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\security\trusted locations]
-"allow user locations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Security\Trusted Locations]
+"allow user Locations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\services\fax]
-"nofax"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Services\Fax]
+"noFax"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\signatures]
-"enablecreationofweakxpsignatures"=dword:00000001
-"suppressextsigningsvcs"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Signatures]
+"enablecreationofweakxpSignatures"=dWord:00000001
+"suppressextSigningsvcs"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\signin]
-"signinoptions"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\Signin]
+"SigninOptions"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\common\trustcenter]
-"trustbar"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Common\TrustCenter]
+"Trustbar"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\excel\internet]
-"donotloadpictures"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Excel\Internet]
+"donotloadpictures"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\excel\options]
-"autohyperlink"=dword:00000000
-"defaultformat"=dword:00000033
-"disableautorepublish"=dword:00000001
-"disableautorepublishwarning"=dword:00000000
-"extractdatadisableui"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Excel\Options]
+"autohyperlink"=dWord:00000000
+"defaultformat"=dWord:00000033
+"disableautorepublish"=dWord:00000001
+"disableautorepublishwarning"=dWord:00000000
+"extractdatadisableui"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\excel\options\binaryoptions]
-"fglobalsheet_37_1"=dword:00000001
-"fupdateext_78_1"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Excel\Options\BinaryOptions]
+"fglobalsheet_37_1"=dWord:00000001
+"fupdateext_78_1"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\excel\security]
-"accessvbom"=dword:00000000
-"blockcontentexecutionfrominternet"=dword:00000001
-"excelbypassencryptedmacroscan"=dword:00000000
-"extensionhardening"=dword:00000001
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbawarnings"=dword:00000002
-"webservicefunctionwarnings"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Excel\Security]
+"Accessvbom"=dWord:00000000
+"blockContentexecutionfromInternet"=dWord:00000001
+"Excelbypassencryptedmacroscan"=dWord:00000000
+"extensionhardening"=dWord:00000001
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbawarnings"=dWord:00000002
+"webservicefunctionwarnings"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\excel\security\fileblock]
-"dbasefiles"=dword:00000002
-"difandsylkfiles"=dword:00000002
-"excel12betafilesfromconverters"=dword:00000001
-"htmlandxmlssfiles"=dword:00000002
-"openinprotectedview"=dword:00000000
-"xl2macros"=dword:00000002
-"xl2worksheets"=dword:00000002
-"xl3macros"=dword:00000002
-"xl3worksheets"=dword:00000002
-"xl4macros"=dword:00000002
-"xl4workbooks"=dword:00000002
-"xl4worksheets"=dword:00000002
-"xl9597workbooksandtemplates"=dword:00000005
-"xl95workbooks"=dword:00000005
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Excel\Security\FileBlock]
+"dbaseFiles"=dWord:00000002
+"difandsylkFiles"=dWord:00000002
+"Excel12betaFilesfromconverters"=dWord:00000001
+"htmlandxmlssFiles"=dWord:00000002
+"openinProtectedview"=dWord:00000000
+"xl2macros"=dWord:00000002
+"xl2worksheets"=dWord:00000002
+"xl3macros"=dWord:00000002
+"xl3worksheets"=dWord:00000002
+"xl4macros"=dWord:00000002
+"xl4workbooks"=dWord:00000002
+"xl4worksheets"=dWord:00000002
+"xl9597workbooksandtemplates"=dWord:00000005
+"xl95workbooks"=dWord:00000005
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\excel\security\filevalidation]
-"disableeditfrompv"=dword:00000001
-"enableonload"=dword:00000001
-"openinprotectedview"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Excel\Security\FileValidation]
+"disableeditfrompv"=dWord:00000001
+"enableonload"=dWord:00000001
+"openinProtectedview"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\excel\security\protectedview]
-"disableattachmentsinpv"=dword:00000000
-"disableinternetfilesinpv"=dword:00000000
-"disableunsafelocationsinpv"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Excel\Security\Protectedview]
+"disableattachmentsinpv"=dWord:00000000
+"disableInternetFilesinpv"=dWord:00000000
+"disableunsafeLocationsinpv"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\excel\security\trusted locations]
-"alllocationsdisabled"=dword:00000001
-"allownetworklocations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Excel\Security\Trusted Locations]
+"allLocationsdisabled"=dWord:00000001
+"allownetworkLocations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\firstrun]
-"bootedrtm"=dword:00000001
-"disablemovie"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\FirstRun]
+"bootedrtm"=dWord:00000001
+"disablemovie"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\gfx]
-"disablescreenshotautohyperlink"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Gfx]
+"disablescreenshotautohyperlink"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\infopath]
-"disableinfopath2003emailforms"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\InfoPath]
+"disableInfoPath2003eMailforms"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\infopath\deployment]
-"cachemailxsn"=dword:00000000
-"mailxsnwithxml"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\InfoPath\Deployment]
+"cacheMailxsn"=dWord:00000000
+"Mailxsnwithxml"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\infopath\editor\offline]
-"cachedmodestatus"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\InfoPath\Editor\Pffline]
+"cachedmodestatus"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\infopath\security]
-"allowinternetsolutions"=dword:00000000
-"disallowattachmentcustomization"=dword:00000001
-"editoractivexbeaconingui"=dword:00000001
-"emailformsbeaconingui"=dword:00000001
-"emailformsruncodeandscript"=dword:00000001
-"enablefulltrustemailforms"=dword:00000000
-"enableinternetemailforms"=dword:00000000
-"enableintranetemailforms"=dword:00000000
-"enablerestrictedemailforms"=dword:00000000
-"gradualupgraderedirection"=dword:00000002
-"infopathbeaconingui"=dword:00000001
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"runfulltrustsolutions"=dword:00000000
-"runmanagedcodefrominternet"=dword:00000001
-"signaturewarning"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\InfoPath\Security]
+"allowInternetsolutions"=dWord:00000000
+"disallowattachmentcustomization"=dWord:00000001
+"Editoractivexbeaconingui"=dWord:00000001
+"eMailformsbeaconingui"=dWord:00000001
+"eMailformsruncodeandscript"=dWord:00000001
+"enablefullTrusteMailforms"=dWord:00000000
+"enableInterneteMailforms"=dWord:00000000
+"enableintraneteMailforms"=dWord:00000000
+"enablerestrictedeMailforms"=dWord:00000000
+"gradualupgraderedirection"=dWord:00000002
+"InfoPathbeaconingui"=dWord:00000001
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"runfullTrustsolutions"=dWord:00000000
+"runmanagedcodefromInternet"=dWord:00000001
+"Signaturewarning"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\infopath\security\trusted locations]
-"alllocationsdisabled"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\InfoPath\Security\Trusted Locations]
+"allLocationsdisabled"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\meetings\profile]
-"serverui"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Meetings\Profile]
+"serverui"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\ms project\security]
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"trustwss"=dword:00000000
-"vbawarnings"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\MS Project\Security]
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"Trustwss"=dWord:00000000
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\osm]
-"enablefileobfuscation"=dword:00000001
-"enablelogging"=dword:00000001
-"enableupload"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\osm]
+"enableFileobfuscation"=dWord:00000001
+"enablelogging"=dWord:00000001
+"enableupload"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook]
-"disableantispam"=dword:00000000
-"disallowattachmentcustomization"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook]
+"disableantispam"=dWord:00000000
+"disallowattachmentcustomization"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\options\autoformat]
-"pgrfafo_25_1"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Options\AutoFormat]
+"pgrfafo_25_1"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\options\calendar]
-"disableweather"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Options\Calendar]
+"disableweather"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\options\general]
-"check default client"=dword:00000001
-"msgformat"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Options\General]
+"check default client"=dWord:00000001
+"msgformat"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\options\mail]
-"blockextcontent"=dword:00000001
-"disableinfopathforms"=dword:00000001
-"editorpreference"=dword:00010000
-"internet"=dword:00000000
-"intranet"=dword:00000000
-"junkmailenablelinks"=dword:00000000
-"junkmailtrustcontacts"=dword:00000001
-"junkmailtrustoutgoingrecipients"=dword:00000000
-"message plain format mime"=dword:00000001
-"message rtf format"=dword:00000001
-"readasplain"=dword:00000001
-"readsignedasplain"=dword:00000001
-"trustedzone"=dword:00000000
-"unblocksafezone"=dword:00000001
-"unblockspecificsenders"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Options\Mail]
+"blockextContent"=dWord:00000001
+"disableInfoPathforms"=dWord:00000001
+"Editorpreference"=dWord:00010000
+"Internet"=dWord:00000000
+"intranet"=dWord:00000000
+"junkMailenablelinks"=dWord:00000000
+"junkMailTrustcontacts"=dWord:00000001
+"junkMailTrustoutgoingrecipients"=dWord:00000000
+"message plain format mime"=dWord:00000001
+"message rtf format"=dWord:00000001
+"readasplain"=dWord:00000001
+"readSignedasplain"=dWord:00000001
+"Trustedzone"=dWord:00000000
+"unblocksafezone"=dWord:00000001
+"unblockspecificsenders"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\options\pubcal]
-"disabledav"=dword:00000001
-"disableofficeonline"=dword:00000001
-"publishcalendardetailspolicy"=dword:00004000
-"restrictedaccessonly"=dword:00000001
-"singleuploadonly"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Options\Pubcal]
+"disabledav"=dWord:00000001
+"disableOfficeonline"=dWord:00000001
+"publishCalendardetailspolicy"=dWord:00004000
+"restrictedAccessonly"=dWord:00000001
+"singleuploadonly"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\options\rss]
-"disable"=dword:00000001
-"enableattachments"=dword:00000000
-"enablefulltexthtml"=dword:00000000
-"synctosyscfl"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Options\Rss]
+"disable"=dWord:00000001
+"enableattachments"=dWord:00000000
+"enablefulltexthtml"=dWord:00000000
+"synctosyscfl"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\options\webcal]
-"disable"=dword:00000001
-"enableattachments"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Options\Webcal]
+"disable"=dWord:00000001
+"enableattachments"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\rpc]
-"enablerpcencryption"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Rpc]
+"enableRpcencryption"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\security]
-"fileextensionsremovelevel1"=-
-"fileextensionsremovelevel2"=-
-"outlooksecuretempfolder"=-
-"addintrust"=dword:00000001
-"adminsecuritymode"=dword:00000003
-"allowactivexoneoffforms"=dword:00000000
-"allowuserstolowerattachments"=dword:00000000
-"authenticationservice"=dword:00000009
-"clearsign"=dword:00000001
-"dontpromptlevel1attachclose"=dword:00000000
-"dontpromptlevel1attachsend"=dword:00000000
-"enableoneoffformscripts"=dword:00000000
-"enablerememberpwd"=dword:00000000
-"externalsmime"=dword:00000000
-"fipsmode"=dword:00000001
-"forcedefaultprofile"=dword:00000000
-"level"=dword:00000002
-"minenckey"=dword:000000a8
-"msgformats"=dword:00000001
-"nocheckonsessionsecurity"=dword:00000001
-"nondefaultstorescript"=dword:00000000
-"promptoomaddressbookaccess"=dword:00000000
-"promptoomaddressinformationaccess"=dword:00000000
-"promptoomcustomaction"=dword:00000000
-"promptoomformulaaccess"=dword:00000000
-"promptoommeetingtaskrequestresponse"=dword:00000000
-"promptoomsaveas"=dword:00000000
-"promptoomsend"=dword:00000000
-"publicfolderscript"=dword:00000000
-"respondtoreceiptrequests"=dword:00000002
-"sharedfolderscript"=dword:00000000
-"showlevel1attach"=dword:00000000
-"sigstatusnotrustdecision"=dword:00000002
-"supressnamechecks"=dword:00000001
-"usecrlchasing"=dword:00000001
-"warnaboutinvalid"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Security]
+"Fileextensionsremovelevel1"=-
+"Fileextensionsremovelevel2"=-
+"Outlooksecuretempfolder"=-
+"addinTrust"=dWord:00000001
+"adminSecuritymode"=dWord:00000003
+"allowactivexoneoffforms"=dWord:00000000
+"allowuserstolowerattachments"=dWord:00000000
+"authenticationservice"=dWord:00000009
+"clearSign"=dWord:00000001
+"dontpromptlevel1attachclose"=dWord:00000000
+"dontpromptlevel1attachsend"=dWord:00000000
+"enableoneoffformscripts"=dWord:00000000
+"enablerememberpwd"=dWord:00000000
+"Externalsmime"=dWord:00000000
+"fipsmode"=dWord:00000001
+"forcedefaultProfile"=dWord:00000000
+"level"=dWord:00000002
+"minenckey"=dWord:000000a8
+"msgformats"=dWord:00000001
+"nocheckonsessionSecurity"=dWord:00000001
+"nondefaultstorescript"=dWord:00000000
+"promptoomaddressbookAccess"=dWord:00000000
+"promptoomaddressinformationAccess"=dWord:00000000
+"promptoomcustomaction"=dWord:00000000
+"promptoomformulaAccess"=dWord:00000000
+"promptoommeetingtaskrequestresponse"=dWord:00000000
+"promptoomsaveas"=dWord:00000000
+"promptoomsend"=dWord:00000000
+"publicfolderscript"=dWord:00000000
+"respondtoreceiptrequests"=dWord:00000002
+"sharedfolderscript"=dWord:00000000
+"showlevel1attach"=dWord:00000000
+"sigstatusnoTrustdecision"=dWord:00000002
+"supressnamechecks"=dWord:00000001
+"usecrlchasing"=dWord:00000001
+"warnaboutinValid"=dWord:00000001
 
-[-HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\outlook\security\trustedaddins]
+[-HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Outlook\Security\TrustedAddins]
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\powerpoint\options]
-"defaultformat"=dword:0000001b
-"markupopensave"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Powerpoint\Options]
+"defaultformat"=dWord:0000001b
+"markupopensave"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\powerpoint\security]
-"accessvbom"=dword:00000000
-"blockcontentexecutionfrominternet"=dword:00000001
-"downloadimages"=dword:00000000
-"notbpromptunsignedaddin"=dword:00000001
-"powerpointbypassencryptedmacroscan"=dword:00000000
-"requireaddinsig"=dword:00000001
-"runprograms"=dword:00000000
-"vbawarnings"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Powerpoint\Security]
+"Accessvbom"=dWord:00000000
+"blockContentexecutionfromInternet"=dWord:00000001
+"downloadimages"=dWord:00000000
+"notbpromptunSignedaddin"=dWord:00000001
+"Powerpointbypassencryptedmacroscan"=dWord:00000000
+"requireAddinsig"=dWord:00000001
+"runprograms"=dWord:00000000
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\powerpoint\security\fileblock]
-"openinprotectedview"=dword:00000000
-"powerpoint12betafilesfromconverters"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Powerpoint\Security\FileBlock]
+"openinProtectedview"=dWord:00000000
+"Powerpoint12betaFilesfromconverters"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\powerpoint\security\filevalidation]
-"disableeditfrompv"=dword:00000001
-"enableonload"=dword:00000001
-"openinprotectedview"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Powerpoint\Security\FileValidation]
+"disableeditfrompv"=dWord:00000001
+"enableonload"=dWord:00000001
+"openinProtectedview"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\powerpoint\security\protectedview]
-"disableattachmentsinpv"=dword:00000000
-"disableinternetfilesinpv"=dword:00000000
-"disableunsafelocationsinpv"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Powerpoint\Security\Protectedview]
+"disableattachmentsinpv"=dWord:00000000
+"disableInternetFilesinpv"=dWord:00000000
+"disableunsafeLocationsinpv"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\powerpoint\security\trusted locations]
-"alllocationsdisabled"=dword:00000001
-"allownetworklocations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Powerpoint\Security\Trusted Locations]
+"allLocationsdisabled"=dWord:00000001
+"allownetworkLocations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\powerpoint\slide libraries]
-"disableslideupdate"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Powerpoint\Slide Libraries]
+"disableslideupdate"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\publisher]
-"promptforbadfiles"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Publisher]
+"promptforbadFiles"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\publisher\security]
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbawarnings"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Publisher\Security]
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\visio\security]
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbawarnings"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Visio\Security]
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\wef\trustedcatalogs]
-"disableomexcatalogs"=dword:00000001
-"requireserververification"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\wef\TrustedCatalogs]
+"disableomexCatalogs"=dWord:00000001
+"requireserververification"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\word\options]
-"custommarkupwarning"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Word\Options]
+"custommarkupwarning"=dWord:00000001
 "defaultformat"="
               "
-"dontupdatelinks"=dword:00000001
-"warnrevisions"=dword:00000001
+"dontupdatelinks"=dWord:00000001
+"warnreVisions"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\word\security]
-"accessvbom"=dword:00000000
-"blockcontentexecutionfrominternet"=dword:00000001
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbawarnings"=dword:00000002
-"wordbypassencryptedmacroscan"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Word\Security]
+"Accessvbom"=dWord:00000000
+"blockContentexecutionfromInternet"=dWord:00000001
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbawarnings"=dWord:00000002
+"Wordbypassencryptedmacroscan"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\word\security\fileblock]
-"openinprotectedview"=dword:00000000
-"word2000files"=dword:00000005
-"word2files"=dword:00000002
-"word60files"=dword:00000002
-"word95files"=dword:00000005
-"word97files"=dword:00000005
-"wordxpfiles"=dword:00000005
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Word\Security\FileBlock]
+"openinProtectedview"=dWord:00000000
+"Word2000Files"=dWord:00000005
+"Word2Files"=dWord:00000002
+"Word60Files"=dWord:00000002
+"Word95Files"=dWord:00000005
+"Word97Files"=dWord:00000005
+"WordxpFiles"=dWord:00000005
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\word\security\filevalidation]
-"disableeditfrompv"=dword:00000001
-"enableonload"=dword:00000001
-"openinprotectedview"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Word\Security\FileValidation]
+"disableeditfrompv"=dWord:00000001
+"enableonload"=dWord:00000001
+"openinProtectedview"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\word\security\protectedview]
-"disableattachmentsinpv"=dword:00000000
-"disableinternetfilesinpv"=dword:00000000
-"disableunsafelocationsinpv"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Word\Security\Protectedview]
+"disableattachmentsinpv"=dWord:00000000
+"disableInternetFilesinpv"=dWord:00000000
+"disableunsafeLocationsinpv"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\15.0\word\security\trusted locations]
-"alllocationsdisabled"=dword:00000001
-"allownetworklocations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Word\Security\Trusted Locations]
+"allLocationsdisabled"=dWord:00000001
+"allownetworkLocations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\access\internet]
-"donotunderlinehyperlinks"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Access\Internet]
+"donotunderlinehyperlinks"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\access\security]
-"blockcontentexecutionfrominternet"=dword:00000001
-"modaltrustdecisiononly"=dword:00000000
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbadigsigtrustedpublishers"=dword:00000001
-"vbarequiredigsigwithcodesigningeku"=dword:00000000
-"vbarequirelmtrustedpublisher"=dword:00000000
-"vbawarnings"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Access\Security]
+"blockContentexecutionfromInternet"=dWord:00000001
+"modalTrustdecisiononly"=dWord:00000000
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbadigsigTrustedPublishers"=dWord:00000001
+"vbarequiredigsigwithcodeSigningeku"=dWord:00000000
+"vbarequirelmTrustedPublisher"=dWord:00000000
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\access\security\trusted locations]
-"allownetworklocations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Access\Security\Trusted Locations]
+"allownetworkLocations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\access\settings]
-"default file format"=dword:0000000c
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Access\Settings]
+"default File format"=dWord:0000000c
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common]
-"fbabehavior"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common]
+"fbabehavior"=dWord:00000001
 "fbaenabledhosts"=hex(2):00,00
-"sendcustomerdata"=dword:00000000
+"sendcustomerdata"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\broadcast]
-"disabledefaultservice"=dword:00000001
-"disableprogrammaticaccess"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\Broadcast]
+"disabledefaultservice"=dWord:00000001
+"disableprogrammaticAccess"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\drm]
-"requireconnection"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\Drm]
+"requireconnection"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\feedback]
-"includescreenshot"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\Feedback]
+"includescreenshot"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\fixedformat]
-"disablefixedformatdocproperties"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\fixedformat]
+"disablefixedformatdocproperties"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\portal]
-"linkpublishingdisabled"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\Portal]
+"linkpublishingdisabled"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\ptwatson]
-"ptwoptin"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\PtWatson]
+"ptwoptin"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\research\translation]
-"useonline"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\Research\Translation]
+"useonline"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\Security]
 "defaultencryption12"="Microsoft Enhanced RSA and AES Cryptographic Provider,AES 256,256"
-"drmencryptproperty"=dword:00000001
-"encryptdocprops"=dword:00000001
-"macroruntimescanscope"=dword:00000002
+"Drmencryptproperty"=dWord:00000001
+"encryptdocprops"=dWord:00000001
+"macroruntimescanscope"=dWord:00000002
 "openxmlencryption"="Microsoft Enhanced RSA and AES Cryptographic Provider,AES 256,256"
-"openxmlencryptproperty"=dword:00000001
+"openxmlencryptproperty"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\security\trusted locations]
-"allow user locations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\Security\Trusted Locations]
+"allow user Locations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\toolbars\access]
-"noextensibilitycustomizationfromdocument"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\toolbars\Access]
+"noextensibilitycustomizationfromdocument"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\toolbars\excel]
-"noextensibilitycustomizationfromdocument"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\toolbars\Excel]
+"noextensibilitycustomizationfromdocument"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\toolbars\infopath]
-"noextensibilitycustomizationfromdocument"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\toolbars\InfoPath]
+"noextensibilitycustomizationfromdocument"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\toolbars\outlook]
-"noextensibilitycustomizationfromdocument"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\toolbars\Outlook]
+"noextensibilitycustomizationfromdocument"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\toolbars\powerpoint]
-"noextensibilitycustomizationfromdocument"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\toolbars\Powerpoint]
+"noextensibilitycustomizationfromdocument"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\toolbars\project]
-"noextensibilitycustomizationfromdocument"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\toolbars\Project]
+"noextensibilitycustomizationfromdocument"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\toolbars\publisher]
-"noextensibilitycustomizationfromdocument"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\toolbars\Publisher]
+"noextensibilitycustomizationfromdocument"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\toolbars\visio]
-"noextensibilitycustomizationfromdocument"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\toolbars\Visio]
+"noextensibilitycustomizationfromdocument"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\toolbars\word]
-"noextensibilitycustomizationfromdocument"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\toolbars\Word]
+"noextensibilitycustomizationfromdocument"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\common\trustcenter]
-"trustbar"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Common\TrustCenter]
+"Trustbar"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\excel\internet]
-"donotloadpictures"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Excel\Internet]
+"donotloadpictures"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\excel\options]
-"defaultformat"=dword:00000033
-"disableautorepublish"=dword:00000001
-"disableautorepublishwarning"=dword:00000000
-"extractdatadisableui"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Excel\Options]
+"defaultformat"=dWord:00000033
+"disableautorepublish"=dWord:00000001
+"disableautorepublishwarning"=dWord:00000000
+"extractdatadisableui"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\excel\options\binaryoptions]
-"fglobalsheet_37_1"=dword:00000001
-"fupdateext_78_1"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Excel\Options\BinaryOptions]
+"fglobalsheet_37_1"=dWord:00000001
+"fupdateext_78_1"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\excel\security]
-"excelbypassencryptedmacroscan"=-
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Excel\Security]
+"Excelbypassencryptedmacroscan"=-
 "webservicefunctionwarnings"=-
-"accessvbom"=dword:00000000
-"blockcontentexecutionfrominternet"=dword:00000001
-"extensionhardening"=dword:00000002
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbadigsigtrustedpublishers"=dword:00000001
-"vbarequiredigsigwithcodesigningeku"=dword:00000000
-"vbarequirelmtrustedpublisher"=dword:00000000
-"vbawarnings"=dword:00000002
+"Accessvbom"=dWord:00000000
+"blockContentexecutionfromInternet"=dWord:00000001
+"extensionhardening"=dWord:00000002
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbadigsigTrustedPublishers"=dWord:00000001
+"vbarequiredigsigwithcodeSigningeku"=dWord:00000000
+"vbarequirelmTrustedPublisher"=dWord:00000000
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\excel\security\external content]
-"disableddeserverlaunch"=dword:00000001
-"disableddeserverlookup"=dword:00000001
-"enableblockunsecurequeryfiles"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Excel\Security\External Content]
+"disableddeserverlaunch"=dWord:00000001
+"disableddeserverlookup"=dWord:00000001
+"enableblockunsecurequeryFiles"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\excel\security\fileblock]
-"dbasefiles"=dword:00000002
-"difandsylkfiles"=dword:00000002
-"htmlandxmlssfiles"=dword:00000002
-"openinprotectedview"=dword:00000000
-"xl2macros"=dword:00000002
-"xl2worksheets"=dword:00000002
-"xl3macros"=dword:00000002
-"xl3worksheets"=dword:00000002
-"xl4macros"=dword:00000002
-"xl4workbooks"=dword:00000002
-"xl4worksheets"=dword:00000002
-"xl9597workbooksandtemplates"=dword:00000005
-"xl95workbooks"=dword:00000005
-"xl97workbooksandtemplates"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Excel\Security\FileBlock]
+"dbaseFiles"=dWord:00000002
+"difandsylkFiles"=dWord:00000002
+"htmlandxmlssFiles"=dWord:00000002
+"openinProtectedview"=dWord:00000000
+"xl2macros"=dWord:00000002
+"xl2worksheets"=dWord:00000002
+"xl3macros"=dWord:00000002
+"xl3worksheets"=dWord:00000002
+"xl4macros"=dWord:00000002
+"xl4workbooks"=dWord:00000002
+"xl4worksheets"=dWord:00000002
+"xl9597workbooksandtemplates"=dWord:00000005
+"xl95workbooks"=dWord:00000005
+"xl97workbooksandtemplates"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\excel\security\filevalidation]
-"openinprotectedview"=-
-"disableeditfrompv"=dword:00000001
-"enableonload"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Excel\Security\FileValidation]
+"openinProtectedview"=-
+"disableeditfrompv"=dWord:00000001
+"enableonload"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\excel\security\protectedview]
-"disableattachmentsinpv"=dword:00000000
-"disableinternetfilesinpv"=dword:00000000
-"disableintranetcheck"=dword:00000000
-"disableunsafelocationsinpv"=dword:00000000
-"enabledatabasefileprotectedview"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Excel\Security\Protectedview]
+"disableattachmentsinpv"=dWord:00000000
+"disableInternetFilesinpv"=dWord:00000000
+"disableintranetcheck"=dWord:00000000
+"disableunsafeLocationsinpv"=dWord:00000000
+"enabledatabaseFileProtectedview"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\excel\security\trusted locations]
-"alllocationsdisabled"=dword:00000001
-"allownetworklocations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Excel\Security\Trusted Locations]
+"allLocationsdisabled"=dWord:00000001
+"allownetworkLocations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\meetings\profile]
-"serverui"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Meetings\Profile]
+"serverui"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\ms project\security]
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"trustwss"=dword:00000000
-"vbawarnings"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\MS Project\Security]
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"Trustwss"=dWord:00000000
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\ms project\security\trusted locations]
-"allownetworklocations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\MS Project\Security\Trusted Locations]
+"allownetworkLocations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\osm]
-"enablefileobfuscation"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\osm]
+"enableFileobfuscation"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\outlook]
-"disallowattachmentcustomization"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook]
+"disallowattachmentcustomization"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\outlook\options\general]
-"msgformat"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Options\General]
+"msgformat"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\outlook\options\mail]
-"blockextcontent"=dword:00000001
-"internet"=dword:00000000
-"intranet"=dword:00000000
-"junkmailenablelinks"=dword:00000000
-"junkmailprotection"=dword:00000003
-"trustedzone"=dword:00000000
-"unblocksafezone"=dword:00000001
-"unblockspecificsenders"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Options\Mail]
+"blockextContent"=dWord:00000001
+"Internet"=dWord:00000000
+"intranet"=dWord:00000000
+"junkMailenablelinks"=dWord:00000000
+"junkMailprotection"=dWord:00000003
+"Trustedzone"=dWord:00000000
+"unblocksafezone"=dWord:00000001
+"unblockspecificsenders"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\outlook\options\pubcal]
-"disabledav"=dword:00000001
-"disableofficeonline"=dword:00000001
-"publishcalendardetailspolicy"=dword:00004000
-"restrictedaccessonly"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Options\Pubcal]
+"disabledav"=dWord:00000001
+"disableOfficeonline"=dWord:00000001
+"publishCalendardetailspolicy"=dWord:00004000
+"restrictedAccessonly"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\outlook\options\rss]
-"enableattachments"=dword:00000000
-"enablefulltexthtml"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Options\Rss]
+"enableattachments"=dWord:00000000
+"enablefulltexthtml"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\outlook\options\webcal]
-"disable"=dword:00000001
-"enableattachments"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Options\Webcal]
+"disable"=dWord:00000001
+"enableattachments"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\outlook\rpc]
-"enablerpcencryption"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Rpc]
+"enableRpcencryption"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\outlook\security]
-"fileextensionsremovelevel1"=-
-"fileextensionsremovelevel2"=-
-"addintrust"=dword:00000001
-"adminsecuritymode"=dword:00000003
-"allowactivexoneoffforms"=dword:00000000
-"allowuserstolowerattachments"=dword:00000000
-"authenticationservice"=dword:00000010
-"clearsign"=dword:00000001
-"enableoneoffformscripts"=dword:00000000
-"enablerememberpwd"=dword:00000000
-"externalsmime"=dword:00000000
-"fipsmode"=dword:00000001
-"forcedefaultprofile"=dword:00000000
-"level"=dword:00000003
-"minenckey"=dword:000000a8
-"msgformats"=dword:00000001
-"nocheckonsessionsecurity"=dword:00000001
-"promptoomaddressbookaccess"=dword:00000000
-"promptoomaddressinformationaccess"=dword:00000000
-"promptoomcustomaction"=dword:00000000
-"promptoomformulaaccess"=dword:00000000
-"promptoommeetingtaskrequestresponse"=dword:00000000
-"promptoomsaveas"=dword:00000000
-"promptoomsend"=dword:00000000
-"publicfolderscript"=dword:00000000
-"publishtogaldisabled"=dword:00000001
-"respondtoreceiptrequests"=dword:00000002
-"sharedfolderscript"=dword:00000000
-"showlevel1attach"=dword:00000000
-"supressnamechecks"=dword:00000001
-"usecrlchasing"=dword:00000001
-"warnaboutinvalid"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Security]
+"Fileextensionsremovelevel1"=-
+"Fileextensionsremovelevel2"=-
+"addinTrust"=dWord:00000001
+"adminSecuritymode"=dWord:00000003
+"allowactivexoneoffforms"=dWord:00000000
+"allowuserstolowerattachments"=dWord:00000000
+"authenticationservice"=dWord:00000010
+"clearSign"=dWord:00000001
+"enableoneoffformscripts"=dWord:00000000
+"enablerememberpwd"=dWord:00000000
+"Externalsmime"=dWord:00000000
+"fipsmode"=dWord:00000001
+"forcedefaultProfile"=dWord:00000000
+"level"=dWord:00000003
+"minenckey"=dWord:000000a8
+"msgformats"=dWord:00000001
+"nocheckonsessionSecurity"=dWord:00000001
+"promptoomaddressbookAccess"=dWord:00000000
+"promptoomaddressinformationAccess"=dWord:00000000
+"promptoomcustomaction"=dWord:00000000
+"promptoomformulaAccess"=dWord:00000000
+"promptoommeetingtaskrequestresponse"=dWord:00000000
+"promptoomsaveas"=dWord:00000000
+"promptoomsend"=dWord:00000000
+"publicfolderscript"=dWord:00000000
+"publishtogaldisabled"=dWord:00000001
+"respondtoreceiptrequests"=dWord:00000002
+"sharedfolderscript"=dWord:00000000
+"showlevel1attach"=dWord:00000000
+"supressnamechecks"=dWord:00000001
+"usecrlchasing"=dWord:00000001
+"warnaboutinValid"=dWord:00000001
 
-[-HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\outlook\security\trustedaddins]
+[-HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Outlook\Security\TrustedAddins]
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\powerpoint\options]
-"defaultformat"=dword:0000001b
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Powerpoint\Options]
+"defaultformat"=dWord:0000001b
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\powerpoint\security]
-"powerpointbypassencryptedmacroscan"=-
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Powerpoint\Security]
+"Powerpointbypassencryptedmacroscan"=-
 "runprograms"=-
-"accessvbom"=dword:00000000
-"blockcontentexecutionfrominternet"=dword:00000001
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbadigsigtrustedpublishers"=dword:00000001
-"vbarequiredigsigwithcodesigningeku"=dword:00000000
-"vbarequirelmtrustedpublisher"=dword:00000000
-"vbawarnings"=dword:00000002
+"Accessvbom"=dWord:00000000
+"blockContentexecutionfromInternet"=dWord:00000001
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbadigsigTrustedPublishers"=dWord:00000001
+"vbarequiredigsigwithcodeSigningeku"=dWord:00000000
+"vbarequirelmTrustedPublisher"=dWord:00000000
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\powerpoint\security\fileblock]
-"binaryfiles"=dword:00000002
-"openinprotectedview"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Powerpoint\Security\FileBlock]
+"BinaryFiles"=dWord:00000002
+"openinProtectedview"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\powerpoint\security\filevalidation]
-"openinprotectedview"=-
-"disableeditfrompv"=dword:00000001
-"enableonload"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Powerpoint\Security\FileValidation]
+"openinProtectedview"=-
+"disableeditfrompv"=dWord:00000001
+"enableonload"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\powerpoint\security\protectedview]
-"disableattachmentsinpv"=dword:00000000
-"disableinternetfilesinpv"=dword:00000000
-"disableintranetcheck"=dword:00000000
-"disableunsafelocationsinpv"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Powerpoint\Security\Protectedview]
+"disableattachmentsinpv"=dWord:00000000
+"disableInternetFilesinpv"=dWord:00000000
+"disableintranetcheck"=dWord:00000000
+"disableunsafeLocationsinpv"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\powerpoint\security\trusted locations]
-"alllocationsdisabled"=dword:00000001
-"allownetworklocations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Powerpoint\Security\Trusted Locations]
+"allLocationsdisabled"=dWord:00000001
+"allownetworkLocations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\publisher]
-"promptforbadfiles"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Publisher]
+"promptforbadFiles"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\publisher\security]
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbadigsigtrustedpublishers"=dword:00000001
-"vbarequiredigsigwithcodesigningeku"=dword:00000000
-"vbarequirelmtrustedpublisher"=dword:00000000
-"vbawarnings"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Publisher\Security]
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbadigsigTrustedPublishers"=dWord:00000001
+"vbarequiredigsigwithcodeSigningeku"=dWord:00000000
+"vbarequirelmTrustedPublisher"=dWord:00000000
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\visio\security]
-"blockcontentexecutionfrominternet"=dword:00000001
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbadigsigtrustedpublishers"=dword:00000001
-"vbarequiredigsigwithcodesigningeku"=dword:00000000
-"vbarequirelmtrustedpublisher"=dword:00000000
-"vbawarnings"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Visio\Security]
+"blockContentexecutionfromInternet"=dWord:00000001
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbadigsigTrustedPublishers"=dWord:00000001
+"vbarequiredigsigwithcodeSigningeku"=dWord:00000000
+"vbarequirelmTrustedPublisher"=dWord:00000000
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\visio\security\fileblock]
-"visio2000files"=dword:00000002
-"visio2003files"=dword:00000002
-"visio50andearlierfiles"=dword:00000002
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Visio\Security\FileBlock]
+"Visio2000Files"=dWord:00000002
+"Visio2003Files"=dWord:00000002
+"Visio50andearlierFiles"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\visio\security\trusted locations]
-"allownetworklocations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Visio\Security\Trusted Locations]
+"allownetworkLocations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\wef\trustedcatalogs]
-"requireserververification"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\wef\TrustedCatalogs]
+"requireserververification"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\word\options]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Word\Options]
 "defaultformat"="
               "
-"dontupdatelinks"=dword:00000001
+"dontupdatelinks"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\word\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Word\Security]
 "allowdde"=-
-"wordbypassencryptedmacroscan"=-
-"accessvbom"=dword:00000000
-"blockcontentexecutionfrominternet"=dword:00000001
-"notbpromptunsignedaddin"=dword:00000001
-"requireaddinsig"=dword:00000001
-"vbadigsigtrustedpublishers"=dword:00000001
-"vbarequiredigsigwithcodesigningeku"=dword:00000000
-"vbarequirelmtrustedpublisher"=dword:00000000
-"vbawarnings"=dword:00000002
+"Wordbypassencryptedmacroscan"=-
+"Accessvbom"=dWord:00000000
+"blockContentexecutionfromInternet"=dWord:00000001
+"notbpromptunSignedaddin"=dWord:00000001
+"requireAddinsig"=dWord:00000001
+"vbadigsigTrustedPublishers"=dWord:00000001
+"vbarequiredigsigwithcodeSigningeku"=dWord:00000000
+"vbarequirelmTrustedPublisher"=dWord:00000000
+"vbawarnings"=dWord:00000002
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\word\security\fileblock]
-"openinprotectedview"=dword:00000000
-"word2000files"=dword:00000005
-"word2003files"=dword:00000002
-"word2007files"=dword:00000002
-"word2files"=dword:00000002
-"word60files"=dword:00000002
-"word95files"=dword:00000005
-"word97files"=dword:00000005
-"wordxpfiles"=dword:00000005
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Word\Security\FileBlock]
+"openinProtectedview"=dWord:00000000
+"Word2000Files"=dWord:00000005
+"Word2003Files"=dWord:00000002
+"Word2007Files"=dWord:00000002
+"Word2Files"=dWord:00000002
+"Word60Files"=dWord:00000002
+"Word95Files"=dWord:00000005
+"Word97Files"=dWord:00000005
+"WordxpFiles"=dWord:00000005
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\word\security\filevalidation]
-"openinprotectedview"=-
-"disableeditfrompv"=dword:00000001
-"enableonload"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Word\Security\FileValidation]
+"openinProtectedview"=-
+"disableeditfrompv"=dWord:00000001
+"enableonload"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\word\security\protectedview]
-"disableattachmentsinpv"=dword:00000000
-"disableinternetfilesinpv"=dword:00000000
-"disableintranetcheck"=dword:00000000
-"disableunsafelocationsinpv"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Word\Security\Protectedview]
+"disableattachmentsinpv"=dWord:00000000
+"disableInternetFilesinpv"=dWord:00000000
+"disableintranetcheck"=dWord:00000000
+"disableunsafeLocationsinpv"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\16.0\word\security\trusted locations]
-"alllocationsdisabled"=dword:00000001
-"allownetworklocations"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Word\Security\Trusted Locations]
+"allLocationsdisabled"=dWord:00000001
+"allownetworkLocations"=dWord:00000000
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\common\blog]
-"disableblog"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\Common\blog]
+"disableblog"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\common\security]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\Common\Security]
 "uficontrols"=-
-"automationsecurity"=dword:00000002
-"automationsecuritypublisher"=dword:00000003
+"automationSecurity"=dWord:00000002
+"automationSecurityPublisher"=dWord:00000003
 
-[HKEY_CURRENT_USER\software\policies\microsoft\office\common\smart tag]
-"neverloadmanifests"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\Common\Smart Tag]
+"neverloadmanifests"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\OneDrive]
-"DisablePersonalSync"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\OneDrive]
+"DisablePersonalSync"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\vba\security]
-"allowvbaintranetreferences"=dword:00000000
-"disablestrictvbarefssecurity"=dword:00000000
-"loadcontrolsinforms"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\vba\Security]
+"allowvbaintranetreferences"=dWord:00000000
+"disablestrictvbarefsSecurity"=dWord:00000000
+"loadcontrolsinforms"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\Windows\CloudContent]
-"DisableThirdPartySuggestions"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableThirdPartySuggestions"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\Windows\Control Panel\Desktop]
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Control Panel\Desktop]
 "ScreenSaveActive"="1"
 "ScreenSaverIsSecure"="1"
 "SCRNSAVE.EXE"="scrnsave.scr"
 
-[HKEY_CURRENT_USER\software\policies\microsoft\Windows\CurrentVersion\PushNotifications]
-"NoCloudApplicationNotification"=dword:00000001
-"NoToastApplicationNotificationOnLockScreen"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\PushNotifications]
+"NoCloudApplicationNotification"=dWord:00000001
+"NoToastApplicationNotificationOnLockScreen"=dWord:00000001
 
-[HKEY_CURRENT_USER\software\policies\microsoft\WindowsMediaPlayer]
-"PreventCodecDownload"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer]
+"PreventCodecDownload"=dWord:00000001
 
