@@ -1,0 +1,284 @@
+Windows Registry Editor Version 5.00
+
+; Autoruns
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Terminal Server\Wds\rdpwd\AutorunsDisabled]
+"StartupPrograms"="rdpclip"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\SafeBoot\AutorunsDisabled]
+"AlternateShell"="cmd.exe"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce\AutorunsDisabled]
+"Edge_DisableSmartScreen"="REG ADD \"HKCU\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\microsoft.microsoftedge_8wekyb3d8bbwe\\MicrosoftEdge\\PhishingFilter\" /F /V \"EnabledV9\" /T REG_DWORD /D \"00000000\""
+"Edge_UseDarkTheme"="REG ADD \"HKCU\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppContainer\\Storage\\microsoft.microsoftedge_8wekyb3d8bbwe\\MicrosoftEdge\\Main\" /F /V \"Theme\" /T REG_DWORD /D \"00000001\""
+"Explorer_Privacy_WebsiteIDAccess_Disable"="REG ADD \"HKCU\\Control Panel\\International\\User Profile\" /F /V \"HttpAcceptLanguageOptOut\" /T REG_DWORD /D \"00000001\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\AutorunsDisabled\{9459C573-B17A-45AE-9F64-1857B5D58CEE}]
+@="Microsoft Edge"
+"StubPath"="\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\90.0.818.56\\Installer\\setup.exe\" --configure-user-settings --verbose-logging --system-level --msedge"
+"Localized Name"="Microsoft Edge"
+"IsInstalled"=dword:00000001
+"Version"="43,0,0,0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\AutorunsDisabled\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
+"ComponentID"="DOTNETFRAMEWORKS"
+"DontAsk"=dword:00000002
+"Enabled"=dword:00000000
+"IsInstalled"=dword:00000001
+"StubPath"="C:\\Windows\\System32\\Rundll32.exe C:\\Windows\\System32\\mscories.dll,Install"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Active Setup\Installed Components\AutorunsDisabled\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
+"ComponentID"="DOTNETFRAMEWORKS"
+"DontAsk"=dword:00000002
+"Enabled"=dword:00000000
+"IsInstalled"=dword:00000001
+"StubPath"="C:\\Windows\\SysWOW64\\Rundll32.exe C:\\Windows\\SysWOW64\\mscories.dll,Install"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\AutorunsDisabled\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}]
+@="IEToEdge BHO"
+"NoExplorer"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\AutorunsDisabled\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}]
+@="IEToEdge BHO"
+"NoExplorer"="1"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\camsvc]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\edgeupdate]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\edgeupdatem]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\HfcDisableService]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\iaStorAfsService]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MicrosoftEdgeElevationService]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\PrintNotify]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\RstMwService]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\cht4vbd]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\iaLPSS2i_GPIO2]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\iaLPSS2i_I2C]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\iaStorAC]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\iaStorAfs]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\mshidumdf]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MSTEE]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\ReFS]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\terminpt]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\TsUsbGD]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\vmgid]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Font Drivers\AutorunsDisabled]
+"Adobe Type Manager"="atmfd.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{083863F1-70DE-11D0-BD40-00A0C911CE86}\Instance\AutorunsDisabled\{3D07A539-35CA-447C-9B05-8D85CE924F9E}]
+"CLSID"="{3D07A539-35CA-447C-9B05-8D85CE924F9E}"
+"FilterData"=hex(3):02,00,00,00,00,00,20,00,07,00,00,00,00,00,00,00,30,70,\
+69,33,00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,30,74,79,\
+33,00,00,00,00,58,01,00,00,68,01,00,00,31,70,69,33,00,00,00,00,00,00,00,00,\
+03,00,00,00,00,00,00,00,00,00,00,00,30,74,79,33,00,00,00,00,78,01,00,00,88,\
+01,00,00,31,74,79,33,00,00,00,00,98,01,00,00,A8,01,00,00,32,74,79,33,00,00,\
+00,00,98,01,00,00,B8,01,00,00,32,70,69,33,08,00,00,00,00,00,00,00,01,00,00,\
+00,00,00,00,00,00,00,00,00,30,74,79,33,00,00,00,00,78,01,00,00,A8,01,00,00,\
+33,70,69,33,08,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,00,00,00,00,30,\
+74,79,33,00,00,00,00,78,01,00,00,C8,01,00,00,34,70,69,33,08,00,00,00,00,00,\
+00,00,01,00,00,00,00,00,00,00,00,00,00,00,30,74,79,33,00,00,00,00,78,01,00,\
+00,D8,01,00,00,35,70,69,33,08,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,\
+00,00,00,00,30,74,79,33,00,00,00,00,78,01,00,00,E8,01,00,00,36,70,69,33,08,\
+00,00,00,00,00,00,00,02,00,00,00,00,00,00,00,00,00,00,00,30,74,79,33,00,00,\
+00,00,F8,01,00,00,08,02,00,00,31,74,79,33,00,00,00,00,18,02,00,00,28,02,00,\
+00,E9,12,B3,AE,57,33,CA,43,B7,01,97,EC,19,8E,2B,62,DB,26,A6,7E,DA,54,7B,43,\
+BE,9F,F7,30,73,AD,FA,3C,E1,76,2A,F7,0A,EB,D0,11,AC,E4,00,00,C0,CC,16,BA,A0,\
+D9,20,CA,3E,3E,D1,11,9B,F9,00,C0,4F,BB,DE,BF,20,80,6D,E0,46,DB,CF,11,B4,D1,\
+00,80,5F,6C,BB,EA,E3,76,2A,F7,0A,EB,D0,11,AC,E4,00,00,C0,CC,16,BA,3C,A4,3D,\
+66,E8,03,9A,4E,9C,D5,BF,11,ED,0D,EF,76,20,F6,B3,A1,92,97,8D,4D,81,A4,86,AF,\
+25,77,20,90,76,D5,91,27,7A,8E,6F,46,9E,90,5D,3F,30,83,73,8B,E3,73,CA,01,E6,\
+DC,75,45,AF,E1,2B,F1,C9,02,CA,F3,80,EA,0A,67,82,3A,D0,11,B7,9B,00,AA,00,37,\
+67,A7,22,4A,8D,6E,0C,31,D0,11,B7,9A,00,AA,00,37,67,A7,89,8A,8B,B8,49,B0,80,\
+4C,AD,CF,58,98,98,5E,22,C1,AA,DD,2A,F5,F0,36,F5,43,95,EA,6D,86,64,84,26,2A
+"FriendlyName"="Closed Captions Analysis Filter"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\AutorunsDisabled\{827D319E-6EAC-11D2-A4EA-00C04F79F83A}]
+@="Security"
+"DisplayName"=hex(2):40,00,28,00,72,00,75,00,6E,00,74,00,69,00,6D,00,65,00,\
+2E,00,73,00,79,00,73,00,74,00,65,00,6D,00,33,00,32,00,29,00,5C,00,73,00,63,\
+00,65,00,63,00,6C,00,69,00,2E,00,64,00,6C,00,6C,00,2C,00,2D,00,37,00,36,00,\
+35,00,30,00,00,00
+"DllName"=hex(2):73,00,63,00,65,00,63,00,6C,00,69,00,2E,00,64,00,6C,00,6C,\
+00,00,00
+"EnableAsynchronousProcessing"=dword:00000001
+"ExtensionDebugLevel"=dword:00000000
+"ExtensionRsopPlanningDebugLevel"=dword:00000001
+"GenerateGroupPolicy"="SceGenerateGroupPolicy"
+"MaxNoGPOListChangesInterval"=dword:00000001
+"NoGPOListChanges"=dword:00000001
+"NoUserPolicy"=dword:00000001
+"ProcessGroupPolicy"="SceProcessSecurityPolicyGPO"
+"ProcessGroupPolicyEx"="SceProcessSecurityPolicyGPOEx"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\AutorunsDisabled\{FC491EF1-C4AA-4CE1-B329-414B101DB823}]
+"DisplayName"=hex(2):40,00,64,00,67,00,67,00,70,00,65,00,78,00,74,00,2E,00,\
+64,00,6C,00,6C,00,2C,00,2D,00,36,00,30,00,30,00,00,00
+"DllName"=hex(2):64,00,67,00,67,00,70,00,65,00,78,00,74,00,2E,00,64,00,6C,\
+00,6C,00,00,00
+"EnableAsynchronousProcessing"=dword:00000000
+"NoUserPolicy"=dword:00000001
+"ProcessGroupPolicy"="ProcessConfigCIPolicyGroupPolicy"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions\AutorunsDisabled\{F312195E-3D9D-447A-A3F5-08DFFA24735E}]
+"DisplayName"=hex(2):40,00,64,00,67,00,67,00,70,00,65,00,78,00,74,00,2E,00,\
+64,00,6C,00,6C,00,2C,00,2D,00,36,00,30,00,30,00,00,00
+"DllName"=hex(2):64,00,67,00,67,00,70,00,65,00,78,00,74,00,2E,00,64,00,6C,\
+00,6C,00,00,00
+"EnableAsynchronousProcessing"=dword:00000000
+"NoUserPolicy"=dword:00000001
+"ProcessGroupPolicy"="ProcessVirtualizationBasedSecurityGroupPolicy"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Print\Monitors\AutorunsDisabled\Standard TCP/IP Port]
+"Driver"="tcpmon.dll"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Print\Monitors\AutorunsDisabled\Standard TCP/IP Port\Ports]
+"LprAckTimeout"=dword:000000b4
+"StatusUpdateEnabled"=dword:00000001
+"StatusUpdateInterval"=dword:0000000a
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Lsa\AutorunsDisabled]
+"Notification Packages"=hex(7):73,00,63,00,65,00,63,00,6C,00,69,00,00,00,00,\
+00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\Certificates\B1BC968BD4F49D622AA89A81F2150152A41D829C]
+"Blob"=hex(3):19,00,00,00,01,00,00,00,10,00,00,00,A8,23,B4,A2,01,80,BE,B4,\
+60,CA,B9,55,C2,4D,7E,21,03,00,00,00,01,00,00,00,14,00,00,00,B1,BC,96,8B,D4,\
+F4,9D,62,2A,A8,9A,81,F2,15,01,52,A4,1D,82,9C,7E,00,00,00,01,00,00,00,08,00,\
+00,00,00,00,04,2B,EB,77,D5,01,7A,00,00,00,01,00,00,00,0C,00,00,00,30,0A,06,\
+08,2B,06,01,05,05,07,03,09,7F,00,00,00,01,00,00,00,0C,00,00,00,30,0A,06,08,\
+2B,06,01,05,05,07,03,09,1D,00,00,00,01,00,00,00,10,00,00,00,6E,E7,F3,B0,60,\
+D1,0E,90,A3,1B,A3,47,1B,99,92,36,14,00,00,00,01,00,00,00,14,00,00,00,60,7B,\
+66,1A,45,0D,97,CA,89,50,2F,7D,04,CD,34,A8,FF,FC,FD,4B,62,00,00,00,01,00,00,\
+00,20,00,00,00,EB,D4,10,40,E4,BB,3E,C7,42,C9,E3,81,D3,1E,F2,A4,1A,48,B6,68,\
+5C,96,E7,CE,F3,C1,DF,6C,D4,33,1C,99,0B,00,00,00,01,00,00,00,30,00,00,00,47,\
+00,6C,00,6F,00,62,00,61,00,6C,00,53,00,69,00,67,00,6E,00,20,00,52,00,6F,00,\
+6F,00,74,00,20,00,43,00,41,00,20,00,2D,00,20,00,52,00,31,00,00,00,53,00,00,\
+00,01,00,00,00,40,00,00,00,30,3E,30,1F,06,09,2B,06,01,04,01,A0,32,01,01,30,\
+12,30,10,06,0A,2B,06,01,04,01,82,37,3C,01,01,03,02,00,C0,30,1B,06,05,67,81,\
+0C,01,03,30,12,30,10,06,0A,2B,06,01,04,01,82,37,3C,01,01,03,02,00,C0,09,00,\
+00,00,01,00,00,00,68,00,00,00,30,66,06,08,2B,06,01,05,05,07,03,02,06,08,2B,\
+06,01,05,05,07,03,03,06,0A,2B,06,01,04,01,82,37,0A,03,04,06,08,2B,06,01,05,\
+05,07,03,04,06,08,2B,06,01,05,05,08,02,02,06,08,2B,06,01,05,05,07,03,06,06,\
+08,2B,06,01,05,05,07,03,07,06,08,2B,06,01,05,05,07,03,09,06,08,2B,06,01,05,\
+05,07,03,01,06,08,2B,06,01,05,05,07,03,08,0F,00,00,00,01,00,00,00,14,00,00,\
+00,5A,6D,07,B6,37,1D,96,6A,2F,B6,BA,92,82,8C,E5,51,2A,49,51,3D,20,00,00,00,\
+01,00,00,00,79,03,00,00,30,82,03,75,30,82,02,5D,A0,03,02,01,02,02,0B,04,00,\
+00,00,00,01,15,4B,5A,C3,94,30,0D,06,09,2A,86,48,86,F7,0D,01,01,05,05,00,30,\
+57,31,0B,30,09,06,03,55,04,06,13,02,42,45,31,19,30,17,06,03,55,04,0A,13,10,\
+47,6C,6F,62,61,6C,53,69,67,6E,20,6E,76,2D,73,61,31,10,30,0E,06,03,55,04,0B,\
+13,07,52,6F,6F,74,20,43,41,31,1B,30,19,06,03,55,04,03,13,12,47,6C,6F,62,61,\
+6C,53,69,67,6E,20,52,6F,6F,74,20,43,41,30,1E,17,0D,39,38,30,39,30,31,31,32,\
+30,30,30,30,5A,17,0D,32,38,30,31,32,38,31,32,30,30,30,30,5A,30,57,31,0B,30,\
+09,06,03,55,04,06,13,02,42,45,31,19,30,17,06,03,55,04,0A,13,10,47,6C,6F,62,\
+61,6C,53,69,67,6E,20,6E,76,2D,73,61,31,10,30,0E,06,03,55,04,0B,13,07,52,6F,\
+6F,74,20,43,41,31,1B,30,19,06,03,55,04,03,13,12,47,6C,6F,62,61,6C,53,69,67,\
+6E,20,52,6F,6F,74,20,43,41,30,82,01,22,30,0D,06,09,2A,86,48,86,F7,0D,01,01,\
+01,05,00,03,82,01,0F,00,30,82,01,0A,02,82,01,01,00,DA,0E,E6,99,8D,CE,A3,E3,\
+4F,8A,7E,FB,F1,8B,83,25,6B,EA,48,1F,F1,2A,B0,B9,95,11,04,BD,F0,63,D1,E2,67,\
+66,CF,1C,DD,CF,1B,48,2B,EE,8D,89,8E,9A,AF,29,80,65,AB,E9,C7,2D,12,CB,AB,1C,\
+4C,70,07,A1,3D,0A,30,CD,15,8D,4F,F8,DD,D4,8C,50,15,1C,EF,50,EE,C4,2E,F7,FC,\
+E9,52,F2,91,7D,E0,6D,D5,35,30,8E,5E,43,73,F2,41,E9,D5,6A,E3,B2,89,3A,56,39,\
+38,6F,06,3C,88,69,5B,2A,4D,C5,A7,54,B8,6C,89,CC,9B,F9,3C,CA,E5,FD,89,F5,12,\
+3C,92,78,96,D6,DC,74,6E,93,44,61,D1,8D,C7,46,B2,75,0E,86,E8,19,8A,D5,6D,6C,\
+D5,78,16,95,A2,E9,C8,0A,38,EB,F2,24,13,4F,73,54,93,13,85,3A,1B,BC,1E,34,B5,\
+8B,05,8C,B9,77,8B,B1,DB,1F,20,91,AB,09,53,6E,90,CE,7B,37,74,B9,70,47,91,22,\
+51,63,16,79,AE,B1,AE,41,26,08,C8,19,2B,D1,46,AA,48,D6,64,2A,D7,83,34,FF,2C,\
+2A,C1,6C,19,43,4A,07,85,E7,D3,7C,F6,21,68,EF,EA,F2,52,9F,7F,93,90,CF,02,03,\
+01,00,01,A3,42,30,40,30,0E,06,03,55,1D,0F,01,01,FF,04,04,03,02,01,06,30,0F,\
+06,03,55,1D,13,01,01,FF,04,05,30,03,01,01,FF,30,1D,06,03,55,1D,0E,04,16,04,\
+14,60,7B,66,1A,45,0D,97,CA,89,50,2F,7D,04,CD,34,A8,FF,FC,FD,4B,30,0D,06,09,\
+2A,86,48,86,F7,0D,01,01,05,05,00,03,82,01,01,00,D6,73,E7,7C,4F,76,D0,8D,BF,\
+EC,BA,A2,BE,34,C5,28,32,B5,7C,FC,6C,9C,2C,2B,BD,09,9E,53,BF,6B,5E,AA,11,48,\
+B6,E5,08,A3,B3,CA,3D,61,4D,D3,46,09,B3,3E,C3,A0,E3,63,55,1B,F2,BA,EF,AD,39,\
+E1,43,B9,38,A3,E6,2F,8A,26,3B,EF,A0,50,56,F9,C6,0A,FD,38,CD,C4,0B,70,51,94,\
+97,98,04,DF,C3,5F,94,D5,15,C9,14,41,9C,C4,5D,75,64,15,0D,FF,55,30,EC,86,8F,\
+FF,0D,EF,2C,B9,63,46,F6,AA,FC,DF,BC,69,FD,2E,12,48,64,9A,E0,95,F0,A6,EF,29,\
+8F,01,B1,15,B5,0C,1D,A5,FE,69,2C,69,24,78,1E,B3,A7,1C,71,62,EE,CA,C8,97,AC,\
+17,5D,8A,C2,F8,47,86,6E,2A,C4,56,31,95,D0,67,89,85,2B,F9,6C,A6,5D,46,9D,0C,\
+AA,82,E4,99,51,DD,70,B7,DB,56,3D,61,E4,6A,E1,5C,D6,F6,FE,3D,DE,41,CC,07,AE,\
+63,52,BF,53,53,F4,2B,E9,C7,FD,B6,F7,82,5F,85,D2,41,18,DB,81,B3,04,1C,C5,1F,\
+A4,80,6F,15,20,C9,DE,0C,88,0A,1D,D6,66,55,E2,FC,48,C9,29,26,69,E0
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shellex\ContextMenuHandlers\AutorunsDisabled\NvCplDesktopContext]
+@="{3D1975AF-48C6-4f8e-A182-BE0E08FA86A9}"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\IntcAzAudAddService]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Intel(R) Capability Licensing Service TCP IP Interface]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Intel(R) TPM Provisioning Service]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\jhi_service]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\MEIx64]
+"Start"=dword:00000004
+"AutorunsDisabled"=dword:00000003
+
